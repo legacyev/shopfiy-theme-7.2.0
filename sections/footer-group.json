@@ -57,15 +57,7 @@
           "settings": {
             "show_footer_title": true,
             "menu": "company-menu",
-            "container_width": 20
-          }
-        },
-        "402b18fc-4f32-4f82-963e-1d87691dd0e7": {
-          "type": "menu",
-          "settings": {
-            "show_footer_title": true,
-            "menu": "company-menu",
-            "container_width": 20
+            "container_width": 25
           }
         },
         "db631c28-0ed4-4095-9750-a41ee55edd10": {
@@ -73,7 +65,23 @@
           "settings": {
             "show_footer_title": true,
             "menu": "support",
-            "container_width": 20
+            "container_width": 25
+          }
+        },
+        "067df950-62c3-4a43-89af-f00526039e62": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "menu": "shop-footer",
+            "container_width": 25
+          }
+        },
+        "402b18fc-4f32-4f82-963e-1d87691dd0e7": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "menu": "ev-build-tools",
+            "container_width": 25
           }
         },
         "footer-0": {
@@ -86,8 +94,9 @@
       },
       "block_order": [
         "footer-1",
-        "402b18fc-4f32-4f82-963e-1d87691dd0e7",
         "db631c28-0ed4-4095-9750-a41ee55edd10",
+        "067df950-62c3-4a43-89af-f00526039e62",
+        "402b18fc-4f32-4f82-963e-1d87691dd0e7",
         "footer-0"
       ],
       "settings": {
