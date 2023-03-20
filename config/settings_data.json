@@ -51,7 +51,7 @@
     "product_grid_image_size": "square",
     "product_hover_image": true,
     "swatch_style": "round",
-    "enable_product_reviews": false,
+    "enable_product_reviews": true,
     "collection_grid_style": "overlaid",
     "collection_grid_shape": "square",
     "collection_grid_image": "collection",
