@@ -302,6 +302,59 @@
         "show_button": true,
         "lazyload_images": true
       }
+    },
+    "d4a31469-1d4b-45eb-91d2-4bf949cda30d": {
+      "type": "promo-grid",
+      "blocks": {
+        "fb4515ab-bc1c-46aa-a56f-8874362e02bc": {
+          "type": "product",
+          "settings": {
+            "product": "0",
+            "subheading": "Limited time",
+            "heading": "Announce your product",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "link_label": "Learn more",
+            "label": "New",
+            "enable_price": false,
+            "width": "50",
+            "text_size": 100,
+            "color_tint": "#000000",
+            "color_tint_opacity": 0,
+            "framed": false
+          }
+        },
+        "template--16057369559206__d4a31469-1d4b-45eb-91d2-4bf949cda30d-16793796613abc132a-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Announce your promotion",
+            "textarea": "",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 280,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "fb4515ab-bc1c-46aa-a56f-8874362e02bc",
+        "template--16057369559206__d4a31469-1d4b-45eb-91d2-4bf949cda30d-16793796613abc132a-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -313,6 +366,7 @@
     "featured-collection",
     "background-image-text",
     "blog-posts",
-    "map"
+    "map",
+    "d4a31469-1d4b-45eb-91d2-4bf949cda30d"
   ]
 }
