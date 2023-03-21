@@ -5,43 +5,25 @@
       "settings": {
       }
     },
-    "4da98d53-d00d-4230-8dc3-e4996651ec9e": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16057369034918__4da98d53-d00d-4230-8dc3-e4996651ec9e-16793791335037eae2-0": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "Endless\npossibilities.",
-            "title_size": 80,
-            "subheading": "Bring your brand to life",
-            "link": "",
-            "link_text": "Optional button",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--16057369034918__4da98d53-d00d-4230-8dc3-e4996651ec9e-16793791335037eae2-0"
-      ],
+    "1e901819-948c-4139-8b09-4d561f0a2cd5": {
+      "type": "background-image-text",
       "settings": {
-        "section_height": "650px",
-        "mobile_height": "auto",
+        "subtitle": "Impressive",
+        "title": "Large image with text box",
+        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
+        "height": 550,
+        "framed": false,
         "parallax": false,
-        "style": "bars",
-        "autoplay": false,
-        "autoplay_speed": 5,
+        "parallax_direction": "top",
         "lazyload_images": true
       }
     }
   },
   "order": [
     "main",
-    "4da98d53-d00d-4230-8dc3-e4996651ec9e"
+    "1e901819-948c-4139-8b09-4d561f0a2cd5"
   ]
 }
