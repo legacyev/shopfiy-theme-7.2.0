@@ -355,6 +355,44 @@
         "space_below": true,
         "lazyload_images": true
       }
+    },
+    "e80701da-7706-4854-ac96-35f55e356662": {
+      "type": "newsletter",
+      "blocks": {
+        "template--16057369559206__e80701da-7706-4854-ac96-35f55e356662-1679380342dd4620c5-0": {
+          "type": "title",
+          "settings": {
+            "title": "Sign up and save",
+            "heading_size": "h2"
+          }
+        },
+        "template--16057369559206__e80701da-7706-4854-ac96-35f55e356662-1679380342dd4620c5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
+        "template--16057369559206__e80701da-7706-4854-ac96-35f55e356662-1679380342dd4620c5-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16057369559206__e80701da-7706-4854-ac96-35f55e356662-1679380342dd4620c5-0",
+        "template--16057369559206__e80701da-7706-4854-ac96-35f55e356662-1679380342dd4620c5-1",
+        "template--16057369559206__e80701da-7706-4854-ac96-35f55e356662-1679380342dd4620c5-2"
+      ],
+      "settings": {
+        "align_text": "center",
+        "image_width": "33",
+        "image_mask": "none",
+        "image_position": "right",
+        "color_background": "{{ shop.brand.colors.primary[0].foreground }}",
+        "color_text": "{{ shop.brand.colors.secondary[0].foreground }}",
+        "top_padding": true,
+        "bottom_padding": true
+      }
     }
   },
   "order": [
@@ -367,6 +405,7 @@
     "background-image-text",
     "blog-posts",
     "map",
-    "d4a31469-1d4b-45eb-91d2-4bf949cda30d"
+    "d4a31469-1d4b-45eb-91d2-4bf949cda30d",
+    "e80701da-7706-4854-ac96-35f55e356662"
   ]
 }
