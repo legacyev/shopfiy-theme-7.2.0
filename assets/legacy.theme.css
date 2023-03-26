@@ -453,12 +453,12 @@
  .collection-content {
      padding-bottom: 25vh;
 }
- .template-collection .grid-product__meta {
+/*  .template-collection .grid-product__meta {
      display: flex;
      justify-content: space-between;
      align-items: center;
      padding: 5px 0 0 0;
-}
+} */
  .template-collection .grid-product__price {
      margin-top: 0;
      font-weight: 600;
