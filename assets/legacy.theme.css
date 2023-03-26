@@ -56,6 +56,7 @@
  .template-collection .breadcrumb {
      display: none;
 }
+
 /* Header */
  .site-nav--right {
      margin-right: 0.75em;
@@ -181,9 +182,9 @@
   height: 0;
 }
 /* =========================================================== Homepage =================================================================================================== */
- body.template-index {
+/*  body.template-index {
      background-color: #232323;
-}
+} */
  .toolbar--transparent .toolbar__content {
      border-bottom-color: transparent;
 }
