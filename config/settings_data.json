@@ -62,6 +62,7 @@
     "collection_grid_opacity": 20,
     "collection_grid_gutter": false,
     "cart_type": "drawer",
+    "cart_icon": "cart",
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
     "share_pinterest": false,
