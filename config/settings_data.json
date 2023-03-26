@@ -49,7 +49,7 @@
     "icon_linecaps": "round",
     "vendor_enable": true,
     "quick_shop_text": "Quick view",
-    "product_grid_image_size": "square",
+    "product_grid_image_size": "natural",
     "product_grid_image_fill": false,
     "product_hover_image": true,
     "swatch_style": "round",
