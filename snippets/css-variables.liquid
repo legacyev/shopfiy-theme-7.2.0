@@ -1,4 +1,14 @@
 {%- style -%}
+  @font-face {
+    font-family: "chaney-regular";
+    src: url('{{ "chaney-regular-webfont.woff2" | asset_url }}') format("woff2"),
+         url('{{ "chaney-regular-webfont.woff" | asset_url }}') format("woff");
+  }
+  @font-face {
+    font-family: "chaney-extended";
+    src: url('{{ "chaney-extended-webfont.woff2" | asset_url }}') format("woff2"),
+         url('{{ "chaney-extended-webfont.woff" | asset_url }}') format("woff");
+  }
   :root {
     --typeHeaderPrimary: {{ settings.type_header_font_family.family }};
     --typeHeaderFallback: {{ settings.type_header_font_family.fallback_families }};
