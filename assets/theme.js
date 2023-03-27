@@ -7025,7 +7025,7 @@ theme.recentlyViewed = {
         enableHistoryState: container.dataset.history || false,
         namespace: '.product-' + sectionId,
         inventory: false,
-        inventoryThreshold: 10,
+        inventoryThreshold: 4,
         modalInit: false,
         hasImages: true,
         imageSetName: null,
