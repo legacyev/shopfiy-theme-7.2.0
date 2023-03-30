@@ -52,6 +52,19 @@
         "lazyload_images": true
       }
     },
+    "0e392686-9203-46d0-b5b6-771a2b335ad2": {
+      "type": "collection-tabs",
+      "settings": {
+        "title": "Hello New Tabs",
+        "collection_one": "education-curriculum",
+        "collection_two": "merchandise",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "rich-text": {
       "type": "rich-text",
       "blocks": {
@@ -272,30 +285,17 @@
         "top_padding": true,
         "bottom_padding": true
       }
-    },
-    "0e392686-9203-46d0-b5b6-771a2b335ad2": {
-      "type": "collection-tabs",
-      "settings": {
-        "title": "Hello New Tabs",
-        "collection_one": "legacy-kits",
-        "collection_two": "merchandise",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
     }
   },
   "order": [
     "slideshow",
+    "0e392686-9203-46d0-b5b6-771a2b335ad2",
     "rich-text",
     "promo-grid2",
     "featured-collection",
     "blog-posts",
     "map",
     "d4a31469-1d4b-45eb-91d2-4bf949cda30d",
-    "e80701da-7706-4854-ac96-35f55e356662",
-    "0e392686-9203-46d0-b5b6-771a2b335ad2"
+    "e80701da-7706-4854-ac96-35f55e356662"
   ]
 }
