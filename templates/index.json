@@ -79,111 +79,6 @@
         "divider": false
       }
     },
-    "promo-grid": {
-      "type": "promo-grid",
-      "blocks": {
-        "promo-0": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
-            "cta_link1": "shopify:\/\/collections\/all",
-            "cta_text2": "Shop All",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "50",
-            "height": 800,
-            "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": true
-          }
-        },
-        "promo-1": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
-            "cta_link1": "shopify:\/\/collections\/all",
-            "cta_text2": "Shop All",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "50",
-            "height": 500,
-            "text_size": 100,
-            "text_align": "vertical-bottom horizontal-center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": true,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "promo-0",
-        "promo-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "gutter_size": 20,
-        "space_above": false,
-        "space_below": false,
-        "lazyload_images": true
-      }
-    },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "featured-collections-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "featured-collections-0",
-        "featured-collections-1",
-        "featured-collections-2",
-        "featured-collections-3"
-      ],
-      "settings": {
-        "title": "Shop by category",
-        "divider": false,
-        "per_row": 4,
-        "enable_gutter": true
-      }
-    },
     "promo-grid2": {
       "type": "promo-grid",
       "blocks": {
@@ -253,28 +148,12 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured collection",
-        "home_featured_products": "",
+        "home_featured_products": "components",
         "per_row": 4,
-        "rows": 1,
+        "rows": 5,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
-      }
-    },
-    "background-image-text": {
-      "type": "background-image-text",
-      "settings": {
-        "subtitle": "Impressive",
-        "title": "Large image with text box",
-        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
-        "button_label": "",
-        "button_link": "shopify:\/\/collections\/all",
-        "layout": "left",
-        "height": 750,
-        "framed": false,
-        "parallax": true,
-        "parallax_direction": "top",
-        "lazyload_images": true
       }
     },
     "blog-posts": {
@@ -398,11 +277,8 @@
   "order": [
     "slideshow",
     "rich-text",
-    "promo-grid",
-    "featured-collections",
     "promo-grid2",
     "featured-collection",
-    "background-image-text",
     "blog-posts",
     "map",
     "d4a31469-1d4b-45eb-91d2-4bf949cda30d",
