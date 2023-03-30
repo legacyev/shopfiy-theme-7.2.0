@@ -1,12 +1,87 @@
+{% comment %}
+  Configuration settings
+{% endcomment %}
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Featured Collection",
+    "settings": [
+      {
+        "type": "collection",
+        "id": "collection_one",
+        "label": "Collection One"
+      },
+      {
+        "type": "collection",
+        "id": "collection_two",
+        "label": "Collection Two"
+      }
+    ]
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
+{% comment %}
+  Output code
+{% endcomment %}
 
-{% javascript %}
-{% endjavascript %}
+{% assign collection_one = settings.collection_one %}
+{% assign collection_two = settings.collection_two %}
+
+{% if collection_one and collection_two %}
+  <style>
+    .featured-collection {
+      margin: 0 0 40px;
+      padding: 0;
+      list-style: none;
+      border-bottom: 1px solid #ccc;
+    }
+    .featured-collection .tab-links {
+      margin: 0;
+      padding: 0;
+    }
+    .featured-collection .tab-links li {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+    }
+    .featured-collection .tab-links a {
+      margin-right: 5px;
+      padding: 10px;
+      display: inline-block;
+      background-color: #f5f5f5;
+      border: 1px solid #ccc;
+      border-bottom: none;
+    }
+    .featured-collection .tab-links a:hover {
+      background-color: #fff;
+      border-color: #666;
+    }
+    .featured-collection .tab-links .active a {
+      background-color: #fff;
+      border-color: #ccc;
+      border-bottom: none;
+      cursor: default;
+    }
+    .featured-collection .tab-content {
+      display: none;
+      padding: 15px;
+    }
+    .featured-collection .tab-content .active {
+      display: block;
+    }
+  </style>
+  <div class="featured-collection">
+    <ul class="tab-links">
+      <li class="active"><a href="#collection-one">{{ collection_one.title }}</a></li>
+      <li><a href="#collection-two">{{ collection_two.title }}</a></li>
+    </ul>
+    <div class="tab-content">
+      <div id="collection-one" class="tab active">
+        {% include 'collection-grid', collection: collection_one, limit: 4 %}
+      </div>
+      <div id="collection-two" class="tab">
+        {% include 'collection-grid', collection: collection_two, limit: 4 %}
+      </div>
+    </div>
+  </div>
+{% endif %}
