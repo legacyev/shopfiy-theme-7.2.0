@@ -46,6 +46,9 @@
       "block_order": [
         "header-0"
       ],
+      "custom_css": [
+        ".site-nav__link {padding: 0 0.75em;}"
+      ],
       "settings": {
         "main_menu_link_list": "new-header",
         "mega_menu_images": true,
