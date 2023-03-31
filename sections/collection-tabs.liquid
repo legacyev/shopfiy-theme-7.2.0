@@ -37,7 +37,7 @@
           endif
         -%}
 
-        {%- if section.settings.home_featured_products == blank or collections[section.settings.home_featured_products].empty? or collections[section.settings.home_featured_products].products_count == 0 -%}
+        {%- if section.settings.collection_one == blank or collections[section.settings.collection_one].empty? or collections[section.settings.collection_one].products_count == 0 -%}
 
           {%- unless emptyState -%}
             {%- assign emptyState = true -%}
@@ -66,7 +66,7 @@
 
         {%- else -%}
 
-          {%- for product in collections[section.settings.home_featured_products].products limit: product_limit -%}
+          {%- for product in collections[section.settings.collection_one].products limit: product_limit -%}
             {%- render 'product-grid-item',
               product: product,
               collection: collection,
@@ -80,13 +80,13 @@
 
             {%- if section.settings.rows > 1 -%}
               <div class="grid__item text-center{% if section.settings.mobile_scrollable %} small--hide{% endif %}">
-                <a href="{{ collections[section.settings.home_featured_products].url }}" class="btn">{{ 'collections.general.all_of_collection' | t }}</a>
+                <a href="{{ collections[section.settings.collection_one].url }}" class="btn">{{ 'collections.general.all_of_collection' | t }}</a>
               </div>
             {%- endif -%}
 
             {%- if section.settings.mobile_scrollable -%}
               <div class="grid__item grid__item--view-all text-center {{ gridView }} medium-up--hide">
-                <a href="{{ collections[section.settings.home_featured_products].url }}" class="grid-product__see-all">
+                <a href="{{ collections[section.settings.collection_one].url }}" class="grid-product__see-all">
                   {{ 'collections.general.view_all_products_html' | t: count: collection.products_count }}
                 </a>
               </div>
@@ -100,7 +100,7 @@
   </div>
   
   {%- if section.settings.view_all and section.settings.rows == 1 -%}
-    <a href="{{ collections[section.settings.home_featured_products].url }}" class="btn btn--secondary btn--small section-header__link">{{ 'collections.general.all_of_collection' | t }}</a>
+    <a href="{{ collections[section.settings.collection_one].url }}" class="btn btn--secondary btn--small section-header__link">{{ 'collections.general.all_of_collection' | t }}</a>
   {%- endif -%}
 </div>
 
