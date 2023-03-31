@@ -55,7 +55,7 @@
         "mega_menu_images": true,
         "main_menu_alignment": "left",
         "header_style": "normal",
-        "sticky_index": true,
+        "sticky_index": false,
         "sticky_collection": false,
         "toolbar_menu": "",
         "toolbar_social": true,
