@@ -45,13 +45,13 @@
         "header-0"
       ],
       "settings": {
-        "main_menu_link_list": "main-menu",
+        "main_menu_link_list": "new-header",
         "mega_menu_images": true,
         "main_menu_alignment": "left",
         "header_style": "normal",
         "sticky_index": true,
         "sticky_collection": false,
-        "toolbar_menu": "",
+        "toolbar_menu": "secondary-menu",
         "toolbar_social": true,
         "show_locale_selector": true,
         "show_currency_selector": true,
