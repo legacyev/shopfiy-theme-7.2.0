@@ -45,8 +45,8 @@
       "settings": {
         "section_height": "100vh",
         "mobile_height": "auto",
-        "parallax": true,
-        "style": "dots",
+        "parallax": false,
+        "style": "arrows",
         "autoplay": true,
         "autoplay_speed": 7,
         "lazyload_images": true
