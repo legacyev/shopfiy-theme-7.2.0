@@ -47,7 +47,8 @@
         "header-0"
       ],
       "custom_css": [
-        ".site-nav__link {padding: 0 0.75em;}"
+        ".site-nav__link {padding: 0.25em 0.75em;}",
+        ".site-nav__link--underline:after {margin: 0 0.75em;}"
       ],
       "settings": {
         "main_menu_link_list": "new-header",
@@ -56,7 +57,7 @@
         "header_style": "normal",
         "sticky_index": true,
         "sticky_collection": false,
-        "toolbar_menu": "secondary-menu",
+        "toolbar_menu": "",
         "toolbar_social": true,
         "show_locale_selector": true,
         "show_currency_selector": true,
