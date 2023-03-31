@@ -56,7 +56,7 @@
       "type": "collection-tabs",
       "settings": {
         "title": "Hello New Tabs",
-        "collection_one": "education-curriculum",
+        "collection_one": "components",
         "collection_two": "merchandise",
         "per_row": 4,
         "rows": 1,
