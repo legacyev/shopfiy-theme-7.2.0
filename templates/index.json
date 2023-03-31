@@ -59,7 +59,7 @@
         "collection_one": "components",
         "collection_two": "merchandise",
         "per_row": 4,
-        "rows": 1,
+        "rows": 3,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
