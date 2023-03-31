@@ -34,7 +34,7 @@
             "color_accent": "#000000",
             "text_align": "vertical-bottom horizontal-left",
             "parallax_direction": "top",
-            "overlay_opacity": 0
+            "overlay_opacity": 8
           }
         }
       },
