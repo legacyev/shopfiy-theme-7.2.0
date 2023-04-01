@@ -127,7 +127,7 @@
         "collection_two": "education-curriculum",
         "collection_label_two": "Shop Kits",
         "per_row": 4,
-        "rows": 1,
+        "rows": 3,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
