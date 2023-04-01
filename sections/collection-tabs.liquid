@@ -11,7 +11,8 @@
   id="CollectionSection-{{ section.id }}"
   data-section-id="{{ section.id }}"
   data-section-type="collection-grid"
-  data-context="collection_one">
+  data-context="collection_one"
+  style="background-color: {{ section.settings.background_color }}; color: {{ section.settings.text_color }}">
   {%- if section.settings.title != blank -%}
     <div class="page-width">
       <div class="section-header{% if section.settings.view_all %}{% unless settings.type_headers_align_text %} section-header--with-link{% endunless %}{% endif %}">
@@ -185,6 +186,20 @@
       "id": "divider",
       "label": "t:sections.featured-collection.settings.divider.label",
       "default": false
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": {
+        "en": "Text Color"
+      }
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": {
+        "en": "Background Color"
+      }
     }
   ],
   "presets": [
