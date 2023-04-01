@@ -20,8 +20,8 @@
         </h2>
       </div>
        <div class="featured-collection__tabs">
-         <a class="featured-collection__tab {% if forloop.index == 1 %}is-active{% endif %}" href="#primary-featured-collection">{{ section.settings.collection_label_one }}</a>
-         <a class="featured-collection__tab {% unless forloop.index == 1 %}is-active{% endunless %}" href="#secondary-featured-collection">{{ section.settings.collection_label_two }}</a>
+         <a class="featured-collection__tab {% if forloop.index == 1 %}is-active{% endif %}" href="#collection-one">{{ section.settings.collection_label_one }}</a>
+         <a class="featured-collection__tab {% unless forloop.index == 1 %}is-active{% endunless %}" href="#collection-two">{{ section.settings.collection_label_two }}</a>
        </div>
     </div>
   {%- endif -%}
@@ -70,7 +70,7 @@
 
         {%- else -%}
 
-          <div id="primary-featured-collection" class="featured-collection__content {% unless forloop.index == 1 %}hidden{% endunless %}">
+          <div id="collection-one" class="collection {% unless forloop.index == 1 %}hidden{% endunless %}">
             {%- for product in collections[section.settings.collection_one].products limit: product_limit -%}
               {%- render 'product-grid-item',
                 product: product,
@@ -82,7 +82,7 @@
             {%- endfor -%}
           </div>
           
-          <div id="secondary-featured-collection" class="featured-collection__content {% if forloop.index == 1 %}hidden{% endif %}">
+          <div id="collection-two" class="collection {% if forloop.index == 1 %}hidden{% endif %}">
             {%- for product in collections[section.settings.collection_two].products limit: product_limit -%}
               {%- render 'product-grid-item',
                 product: product,
