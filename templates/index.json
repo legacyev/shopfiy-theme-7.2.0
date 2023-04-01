@@ -162,9 +162,9 @@
       "settings": {
         "title": "",
         "logo_opacity": 100,
-        "divider": true,
-        "background_color": "#1c1d1d",
-        "top_padding": true
+        "divider": false,
+        "background_color": "{{ shop.brand.colors.primary[0].foreground }}",
+        "padding": true
       }
     },
     "0e392686-9203-46d0-b5b6-771a2b335ad2": {
