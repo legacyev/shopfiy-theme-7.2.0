@@ -53,6 +53,57 @@
         "lazyload_images": true
       }
     },
+    "802f7f66-13cd-4ea0-8c70-242e9dd19588": {
+      "type": "text-columns",
+      "blocks": {
+        "template--16057369559206__802f7f66-13cd-4ea0-8c70-242e9dd19588-168033413370ff6233-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "template--16057369559206__802f7f66-13cd-4ea0-8c70-242e9dd19588-168033413370ff6233-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "template--16057369559206__802f7f66-13cd-4ea0-8c70-242e9dd19588-168033413370ff6233-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16057369559206__802f7f66-13cd-4ea0-8c70-242e9dd19588-168033413370ff6233-0",
+        "template--16057369559206__802f7f66-13cd-4ea0-8c70-242e9dd19588-168033413370ff6233-1",
+        "template--16057369559206__802f7f66-13cd-4ea0-8c70-242e9dd19588-168033413370ff6233-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
     "5aa13ead-dc14-4b8e-bb21-d439e719a207": {
       "type": "logo-list",
       "blocks": {
@@ -360,6 +411,7 @@
   },
   "order": [
     "slideshow",
+    "802f7f66-13cd-4ea0-8c70-242e9dd19588",
     "5aa13ead-dc14-4b8e-bb21-d439e719a207",
     "0e392686-9203-46d0-b5b6-771a2b335ad2",
     "rich-text",
