@@ -279,18 +279,6 @@
         "lazyload_images": true
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "components",
-        "per_row": 4,
-        "rows": 5,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "blog-posts": {
       "type": "blog-posts",
       "settings": {
@@ -370,6 +358,70 @@
         "lazyload_images": true
       }
     },
+    "c56bfd12-600d-46ee-bd02-084d3d6c8b98": {
+      "type": "testimonials",
+      "blocks": {
+        "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        }
+      },
+      "block_order": [
+        "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-0",
+        "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-1",
+        "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-2",
+        "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-3",
+        "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-4"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "align_text": "center",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    },
     "e80701da-7706-4854-ac96-35f55e356662": {
       "type": "newsletter",
       "blocks": {
@@ -416,10 +468,10 @@
     "0e392686-9203-46d0-b5b6-771a2b335ad2",
     "rich-text",
     "promo-grid2",
-    "featured-collection",
     "blog-posts",
     "map",
     "d4a31469-1d4b-45eb-91d2-4bf949cda30d",
+    "c56bfd12-600d-46ee-bd02-084d3d6c8b98",
     "e80701da-7706-4854-ac96-35f55e356662"
   ]
 }
