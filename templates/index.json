@@ -160,7 +160,7 @@
         "1958e72a-375a-49fb-bbc5-ac4cb44ba464"
       ],
       "settings": {
-        "title": "",
+        "title": "Partners Aplenty",
         "logo_opacity": 100,
         "divider": false,
         "background_color": "{{ shop.brand.colors.primary[0].foreground }}",
