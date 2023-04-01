@@ -1,7 +1,14 @@
 {%- style -%}
-.logo-bar--{{ section.id }} {
-  opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
-}
+  
+  {% if section.settings.top_padding == false %}
+    .newsletter-{{ section.id }} .newsletter-section { padding-top: 0 !important; }
+  {% endif %}
+  {% if section.settings.bottom_padding == false %}
+    .newsletter-{{ section.id }} .newsletter-section { padding-bottom: 0 !important; }
+  {% endif %}
+  .logo-bar--{{ section.id }} {
+    opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
+  }
 {%- endstyle -%}
 
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
