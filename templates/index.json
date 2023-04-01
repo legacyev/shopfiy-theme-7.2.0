@@ -136,18 +136,6 @@
           "settings": {
             "link": ""
           }
-        },
-        "481e3e4b-8ee0-49a2-bc7b-45f9f3b15da1": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "1958e72a-375a-49fb-bbc5-ac4cb44ba464": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -155,9 +143,7 @@
         "template--16057369559206__5aa13ead-dc14-4b8e-bb21-d439e719a207-1680331772062de203-1",
         "template--16057369559206__5aa13ead-dc14-4b8e-bb21-d439e719a207-1680331772062de203-2",
         "template--16057369559206__5aa13ead-dc14-4b8e-bb21-d439e719a207-1680331772062de203-3",
-        "e86e4fcb-1cd0-4f36-99e7-7a433c588fc6",
-        "481e3e4b-8ee0-49a2-bc7b-45f9f3b15da1",
-        "1958e72a-375a-49fb-bbc5-ac4cb44ba464"
+        "e86e4fcb-1cd0-4f36-99e7-7a433c588fc6"
       ],
       "settings": {
         "title": "Partners Aplenty",
