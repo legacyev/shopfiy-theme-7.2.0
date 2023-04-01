@@ -315,7 +315,7 @@
         "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-0": {
           "type": "testimonial",
           "settings": {
-            "icon": "5-stars",
+            "icon": "quote",
             "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
             "author": "Author's name",
             "author_info": "Los Angeles, CA"
