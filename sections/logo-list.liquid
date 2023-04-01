@@ -1,7 +1,7 @@
 {%- style -%}
   
-  {% if section.settings.top_padding == false %}
-    .logo-list--{{ section.id }} .logo-list-section { padding-top: 32px !important; }
+  {% if section.settings.top_padding == true %}
+    .logo-list{ padding-top: 32px !important; }
   {% endif %}
   .logo-bar--{{ section.id }} {
     opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
