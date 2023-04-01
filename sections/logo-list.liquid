@@ -6,7 +6,7 @@
 
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
-<div class="page-width" data-aos="logo__animation">
+<div class="page-width" data-aos="logo__animation" style="background-color: {{ section.settings.background_color }};>
   {%- if section.settings.title != blank -%}
     <div class="section-header">
       <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
@@ -68,6 +68,13 @@
       "id": "divider",
       "label": "t:sections.logo-list.settings.divider.label",
       "default": false
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": {
+        "en": "Background Color"
+      }
     }
   ],
   "blocks": [
