@@ -56,7 +56,8 @@
     "0e392686-9203-46d0-b5b6-771a2b335ad2": {
       "type": "collection-tabs",
       "custom_css": [
-        ".featured-collection__tabs a.active {color: red;}"
+        ".featured-collection__tabs a.active {color: red;}",
+        ".collection.hidden {display: none;}"
       ],
       "settings": {
         "title": "Hello New Tabs",
