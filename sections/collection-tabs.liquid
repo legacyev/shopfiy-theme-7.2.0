@@ -20,7 +20,7 @@
         </h2>
       </div>
        <div class="featured-collection__tabs">
-         <a class="featured-collection__tab {% if forloop.index == 1 %}is-active{% endif %}" href="#collection-one">{{ section.settings.collection_label_one }}</a>
+         <a class="featured-collection__tab {% if forloop.index == 0 %}is-active{% endif %}" href="#collection-one">{{ section.settings.collection_label_one }}</a>
          <a class="featured-collection__tab {% unless forloop.index == 1 %}is-active{% endunless %}" href="#collection-two">{{ section.settings.collection_label_two }}</a>
        </div>
     </div>
