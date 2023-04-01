@@ -71,7 +71,7 @@
         {%- else -%}
 
           <div id="primary-featured-collection" class="featured-collection__content {% unless forloop.index == 1 %}hidden{% endunless %}">
-            {%- for product in collections[section.settings.home_featured_products].products limit: product_limit -%}
+            {%- for product in collections[section.settings.collection_one].products limit: product_limit -%}
               {%- render 'product-grid-item',
                 product: product,
                 collection: collection,
@@ -83,7 +83,7 @@
           </div>
           
           <div id="secondary-featured-collection" class="featured-collection__content {% if forloop.index == 1 %}hidden{% endif %}">
-            {%- for product in collections[section.settings.secondary_featured_products].products limit: product_limit -%}
+            {%- for product in collections[section.settings.collection_two].products limit: product_limit -%}
               {%- render 'product-grid-item',
                 product: product,
                 collection: collection,
