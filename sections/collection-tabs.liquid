@@ -209,18 +209,12 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
   $(document).ready(function() {
-    // When a tab is clicked
-    $(".featured-collection__tabs a").click(function() {
-      // Remove the active class from all tabs
-      $(".featured-collection__tabs a").removeClass("active");
-      // Add the active class to the clicked tab
-      $(this).addClass("active");
-      // Hide all collections
-      $(".featured-collection__content .collection").hide();
-      // Show the collection corresponding to the clicked tab
-      $($(this).attr("href")).show();
-      // Prevent the default anchor behavior
-      return false;
+    $('.featured-collection__tabs a').click(function(event) {
+      event.preventDefault();
+      $('.featured-collection__tabs a').removeClass('active');
+      $(this).addClass('active');
+      $('.collection').addClass('hidden');
+      $($(this).attr('href')).removeClass('hidden');
     });
   });
 </script>
