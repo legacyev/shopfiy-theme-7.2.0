@@ -163,6 +163,7 @@
         "title": "Partners Aplenty",
         "logo_opacity": 100,
         "divider": false,
+        "text_color": "#ffffff",
         "background_color": "{{ shop.brand.colors.primary[0].foreground }}",
         "padding": true
       }
