@@ -19,13 +19,13 @@
           {{ section.settings.title }}
         </h2>
       </div>
-       <div class="featured-collection__tabs grid__item text-center">
-         <a class="active" href="#collection-one">{{ section.settings.collection_label_one }}</a>
-         <a href="#collection-two">{{ section.settings.collection_label_two }}</a>
-       </div>
     </div>
   {%- endif -%}
-
+  
+  <div class="featured-collection__tabs grid__item text-center">
+    <a class="active" href="#collection-one">{{ section.settings.collection_label_one }}</a>
+    <a href="#collection-two">{{ section.settings.collection_label_two }}</a>
+  </div>
   <div class="page-width{% if section.settings.mobile_scrollable %} page-width--flush-small{% endif %}">
     <div{% if section.settings.mobile_scrollable %} class="grid-overflow-wrapper"{% endif %}>
       <div class="grid grid--uniform"{% if section.settings.mobile_scrollable %} data-aos="overflow__animation"{% endif %}>
