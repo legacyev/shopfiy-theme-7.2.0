@@ -111,7 +111,8 @@
       "settings": {
         "title": "",
         "logo_opacity": 100,
-        "divider": false
+        "divider": false,
+        "background_color": "#1c1d1d"
       }
     },
     "0e392686-9203-46d0-b5b6-771a2b335ad2": {
