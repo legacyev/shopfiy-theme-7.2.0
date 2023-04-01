@@ -70,7 +70,7 @@
 
         {%- else -%}
 
-          <div id="collection-one" class="collection {% unless forloop.index == 1 %}hidden{% endunless %}">
+          <div id="collection-one" class="collection">
             {%- for product in collections[section.settings.collection_one].products limit: product_limit -%}
               {%- render 'product-grid-item',
                 product: product,
@@ -82,7 +82,7 @@
             {%- endfor -%}
           </div>
           
-          <div id="collection-two" class="collection {% if forloop.index == 1 %}hidden{% endif %}">
+          <div id="collection-two" class="collection hidden">
             {%- for product in collections[section.settings.collection_two].products limit: product_limit -%}
               {%- render 'product-grid-item',
                 product: product,
