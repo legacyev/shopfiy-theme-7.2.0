@@ -20,8 +20,8 @@
         </h2>
       </div>
        <div class="featured-collection__tabs">
-         <a class="featured-collection__tab {% if forloop.index == 1 %}is-active{% endif %}" href="#primary-featured-collection">{{ collections[section.settings.collection_one].title }}</a>
-         <a class="featured-collection__tab {% unless forloop.index == 1 %}is-active{% endunless %}" href="#secondary-featured-collection">{{ collections[section.settings.collection_two].title }}</a>
+         <a class="featured-collection__tab {% if forloop.index == 1 %}is-active{% endif %}" href="#primary-featured-collection">{{ collections[section.settings.collection_one].label }}</a>
+         <a class="featured-collection__tab {% unless forloop.index == 1 %}is-active{% endunless %}" href="#secondary-featured-collection">{{ collections[section.settings.collection_two].label }}</a>
        </div>
     </div>
   {%- endif -%}
