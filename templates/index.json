@@ -15,9 +15,10 @@
             "link_2": "shopify:\/\/collections\/all",
             "link_text_2": "Shop all →",
             "color_accent": "{{ shop.brand.colors.primary[0].background }}",
-            "text_align": "vertical-center horizontal-center",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/TPX07672.jpg",
             "parallax_direction": "top",
-            "overlay_opacity": 0
+            "overlay_opacity": 8
           }
         },
         "slideshow-1": {
@@ -254,8 +255,8 @@
         "template--16057369559206__e80701da-7706-4854-ac96-35f55e356662-1679380342dd4620c5-0": {
           "type": "title",
           "settings": {
-            "title": "Sign up and save",
-            "heading_size": "h2"
+            "title": "STAY IN THE LOOP",
+            "heading_size": "h3"
           }
         },
         "template--16057369559206__e80701da-7706-4854-ac96-35f55e356662-1679380342dd4620c5-1": {
