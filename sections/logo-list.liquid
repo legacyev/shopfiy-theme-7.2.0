@@ -1,10 +1,7 @@
 {%- style -%}
   
   {% if section.settings.top_padding == false %}
-    .newsletter-{{ section.id }} .newsletter-section { padding-top: 0 !important; }
-  {% endif %}
-  {% if section.settings.bottom_padding == false %}
-    .newsletter-{{ section.id }} .newsletter-section { padding-bottom: 0 !important; }
+    .logo-list--{{ section.id }} .logo-list-section { padding-top: 32px !important; }
   {% endif %}
   .logo-bar--{{ section.id }} {
     opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
@@ -12,7 +9,7 @@
 {%- endstyle -%}
 
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
-<div style="background-color: {{ section.settings.background_color }};">
+<div class="logo-list" style="background-color: {{ section.settings.background_color }};">
   <div class="page-width" data-aos="logo__animation">
     {%- if section.settings.title != blank -%}
       <div class="section-header">
