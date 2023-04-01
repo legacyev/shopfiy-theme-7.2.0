@@ -13,7 +13,7 @@
   <div class="page-width" data-aos="logo__animation">
     {%- if section.settings.title != blank -%}
       <div class="section-header">
-        <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
+        <h2 class="section-header__title" style="color: {{ section.settings.text_color }};">{{ section.settings.title | escape }}</h2>
       </div>
     {%- endif -%}
   
@@ -72,6 +72,13 @@
       "id": "divider",
       "label": "t:sections.logo-list.settings.divider.label",
       "default": false
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": {
+        "en": "Text Color"
+      }
     },
     {
       "type": "color",
