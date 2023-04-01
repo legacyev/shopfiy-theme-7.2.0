@@ -208,14 +208,16 @@
      max-width: 1160px;
      margin: 60px auto;
 }
-body.template-index .hero__title{
-     font-size: 28px;
-     line-height: 1.4;
+body.template-index .hero__title {
+   font-size: 28px;
+   line-height: 1.4;
 }
 body.template-index .hero__title,
-body.template-index .hero__subtitle{
-body.template-index .hero__title img {
+body.template-index .hero__subtitle {
     max-width: 40rem;
+}
+ body.template-index .hero__title img {
+     margin: 0 auto 1em auto;
 }
  body.template-index .index-section--hero .hero__text-content.horizontal-right {
      text-align: center;
