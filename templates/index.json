@@ -13,12 +13,12 @@
             "link": "shopify:\/\/collections\/all",
             "link_text": "Learn more →",
             "link_2": "",
-            "link_text_2": "",
+            "link_text_2": "fsdafad",
             "color_accent": "{{ shop.brand.colors.primary[0].background }}",
             "text_align": "vertical-bottom horizontal-left",
             "image": "shopify:\/\/shop_images\/TPX07672.jpg",
             "parallax_direction": "top",
-            "overlay_opacity": 12
+            "overlay_opacity": 0
           }
         },
         "slideshow-1": {
