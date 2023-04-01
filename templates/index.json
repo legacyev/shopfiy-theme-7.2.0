@@ -121,7 +121,7 @@
         ".collection.hidden {display: none;}"
       ],
       "settings": {
-        "title": "Hello New Tabs",
+        "title": "",
         "collection_one": "components",
         "collection_label_one": "Shop Parts",
         "collection_two": "legacy-kits",
