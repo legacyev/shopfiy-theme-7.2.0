@@ -1,7 +1,7 @@
 {%- style -%}
   
-  {% if section.settings.top_padding == true %}
-    .logo-list{ padding-top: 32px !important; }
+  {% if section.settings.padding == true %}
+    .logo-list{ padding: 60px 0 30px 0 !important; }
   {% endif %}
   .logo-bar--{{ section.id }} {
     opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
@@ -82,7 +82,7 @@
     },
     {
       "type": "checkbox",
-      "id": "top_padding",
+      "id": "padding",
       "label": "Padding",
       "default": true
     }
