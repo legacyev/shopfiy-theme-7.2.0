@@ -190,33 +190,6 @@
         "background_color": "#ffffff"
       }
     },
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Rich text"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
     "promo-grid2": {
       "type": "promo-grid",
       "blocks": {
@@ -295,17 +268,6 @@
         "view_all": true,
         "blog_image_size": "wide",
         "divider": false
-      }
-    },
-    "map": {
-      "type": "map",
-      "settings": {
-        "map_title": "Our retail store",
-        "address": "<p>301 Front St W<br>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm<\/p>",
-        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
-        "api_key": "",
-        "show_button": true,
-        "lazyload_images": true
       }
     },
     "d4a31469-1d4b-45eb-91d2-4bf949cda30d": {
@@ -469,10 +431,8 @@
     "802f7f66-13cd-4ea0-8c70-242e9dd19588",
     "5aa13ead-dc14-4b8e-bb21-d439e719a207",
     "0e392686-9203-46d0-b5b6-771a2b335ad2",
-    "rich-text",
     "promo-grid2",
     "blog-posts",
-    "map",
     "d4a31469-1d4b-45eb-91d2-4bf949cda30d",
     "c56bfd12-600d-46ee-bd02-084d3d6c8b98",
     "e80701da-7706-4854-ac96-35f55e356662"
