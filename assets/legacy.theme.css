@@ -117,6 +117,17 @@
      background-color: #fff;
      color: #000;
 }
+@media only screen and (min-width:769px){
+  .site-nav__link--icon .icon{
+    width:22px;
+    height:22px
+  }
+
+    .site-nav__link--icon .icon.icon-user{
+      position:relative;
+      top:1px;
+    }
+}
 /* Footer */
  .footer__social {
      text-align: center;
