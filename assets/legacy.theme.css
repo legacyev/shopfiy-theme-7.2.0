@@ -214,7 +214,7 @@ body.template-index .hero__title {
 }
 body.template-index .hero__title,
 body.template-index .hero__subtitle {
-    max-width: 40rem;
+    max-width: 30rem;
 }
  body.template-index .hero__title img {
      margin: 0 auto 1em auto;
