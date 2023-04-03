@@ -3277,7 +3277,7 @@ button[disabled],html input[disabled]{
     border-color:var(--colorTextBody);
     background-color:transparent; 
     transition:border 0.3s ease;
-  background:{{ settings.color_button_secondary | darken: 50 }};
+  background:{{ settings.color_button_secondary | color_darken: 5 }};
   background:var(--colorBtnSecondary)
   }
 
