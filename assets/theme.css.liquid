@@ -3227,12 +3227,10 @@ button[disabled],html input[disabled]{
 }
 
 .btn--secondary,.rte .btn--secondary{
-  color:{{ settings.color_body_text | default: "#1c1d1d" }};
-  color:var(--colorTextBody);
+  color:var(--color_button_secondary_text);
   border:1px solid;
-  border-color:{{ settings.color_borders | default: "#1c1d1d" }};
   border-color:var(--colorBorder);
-  background-color:darkPink;
+  background-colorvar(--color_button_secondary);
 }
 
 [data-button_style=angled] .btn--secondary,[data-button_style=angled] .rte .btn--secondary{
