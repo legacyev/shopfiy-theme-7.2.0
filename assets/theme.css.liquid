@@ -12,6 +12,11 @@
   --colorBtnPrimaryText:{{ settings.color_button_text | default: "#fff" }};
   --colorCartDot:{{ settings.color_cart_dot | default: "#ff4f33" }};
 
+  --colorBtnSecondary:{{ settings.color_button_secondary | default: "#000" }};
+  --colorBtnSecondaryLight:{{ settings.color_button_secondary | default: "#000" | color_lighten: 10 }};
+  --colorBtnSecondaryDim:{{ settings.color_button_secondary | default: "#000" | color_darken: 5 }};
+  --colorBtnSecondaryText:{{ settings.color_button_secondary_text | default: "#111" }};
+  
   --colorLink:{{ settings.color_body_text | default: "#1c1d1d" }};
 
   --colorTextBody:{{ settings.color_body_text | default: "#1c1d1d" }};
@@ -3227,7 +3232,7 @@ button[disabled],html input[disabled]{
   border:1px solid;
   border-color:{{ settings.color_borders | default: "#1c1d1d" }};
   border-color:var(--colorBorder);
-  background-color:transparent
+  background-color:darkPink;
 }
 
 [data-button_style=angled] .btn--secondary,[data-button_style=angled] .rte .btn--secondary{
