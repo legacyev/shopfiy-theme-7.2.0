@@ -7,6 +7,8 @@
     "color_borders": "#232323",
     "color_button": "#111111",
     "color_button_text": "#ffffff",
+    "color_button_secondary": "#D5E3C0",
+    "color_button_secondary-text": "#111111",
     "color_sale_tag": "#1c1d1d",
     "color_cart_dot": "#ff4f33",
     "color_small_image_bg": "#e5e5e5",
@@ -82,8 +84,6 @@
     "checkout_accent_color": "#682d2d",
     "checkout_button_color": "#682d2d",
     "checkout_error_color": "#ff6d6d",
-    "color_button_secondary": "darkPink",
-    "color_button_secondary-text": "#111111",
     "breadcrumb": true,
     "sections": {
       "collection-header": {
