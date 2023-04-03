@@ -63,10 +63,10 @@
             "enable_image": true,
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
+            "title": "EV Education",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
-            "button_link": ""
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/pages\/edu"
           }
         },
         "template--16057369559206__802f7f66-13cd-4ea0-8c70-242e9dd19588-168033413370ff6233-1": {
@@ -75,9 +75,9 @@
             "enable_image": true,
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
+            "title": "EV Conversion Parts",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "button_label": "Browse Parts",
             "button_link": ""
           }
         },
@@ -87,9 +87,9 @@
             "enable_image": true,
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
+            "title": "Commercial fleet conversions",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "button_label": "Learn More",
             "button_link": ""
           }
         }
