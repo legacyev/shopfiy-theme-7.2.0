@@ -3229,9 +3229,9 @@ button[disabled],html input[disabled]{
 .btn--secondary,.rte .btn--secondary{
   border:1px solid;
   border-color:var(--colorBorder);
-  color:{{ settings.color_button_secondary_text | default: "#fff" }};
+  color:{{ settings.color_button_secondary_text }};
   color:var(--colorBtnSecondaryText);
-  background:{{ settings.color_button_secondary | default: "#000" }};
+  background:{{ settings.color_button_secondary }};
   background:var(--colorBtnSecondary)
 }
 
@@ -3275,8 +3275,10 @@ button[disabled],html input[disabled]{
     color:var(--colorTextBody);
     border-color:{{ settings.color_body_text | default: "#1c1d1d" }};
     border-color:var(--colorTextBody);
-    background-color:transparent;
-    transition:border 0.3s ease
+    background-color:transparent; 
+    transition:border 0.3s ease;
+  background:{{ settings.color_button_secondary | darken: 50 }};
+  background:var(--colorBtnSecondary)
   }
 
 .btn--secondary:hover:before,.rte .btn--secondary:hover:before{
