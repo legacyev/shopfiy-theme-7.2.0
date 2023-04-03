@@ -159,7 +159,7 @@
     "0e392686-9203-46d0-b5b6-771a2b335ad2": {
       "type": "collection-tabs",
       "custom_css": [
-        ".featured-collection__tabs a {position: relative; display: inline-block; padding: 0.5em 0; margin: 0 1rem 3rem 0; color: #888888; border-bottom: 2px solid transparent; transition: all 100ms ease-in-out;}",
+        ".featured-collection__tabs a {position: relative; display: inline-block; padding: 0.5em 0; margin: 0 1rem 3rem 0; color: #888888; border-bottom: 1px solid transparent; transition: all 100ms ease-in-out;}",
         ".featured-collection__tabs a:not(.active):hover {border-color: #ccc;}",
         ".featured-collection__tabs a.active {color: #121212; border-bottom: 2px solid #121212;}",
         ".collection.hidden {display: none;}"
