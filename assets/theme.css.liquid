@@ -10625,10 +10625,11 @@ html[dir=rtl] .background-media-text__text{
 }
 
 .newsletter__input-group:last-child{
-    margin-top:8px;
     margin-bottom:0;
   }
-
+.newsletter__input-group input {
+  margin-bottom:8px;
+}
 .newsletter__input::-webkit-input-placeholder{
     color:{{ settings.color_body_text | default: "#1c1d1d" }};
     color:var(--colorTextBody);
