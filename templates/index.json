@@ -171,23 +171,11 @@
         "collection_label_two": "Shop Kits",
         "per_row": 4,
         "rows": 3,
-        "mobile_scrollable": true,
+        "mobile_scrollable": false,
         "view_all": true,
         "divider": false,
         "text_color": "rgba(0,0,0,0)",
         "background_color": "#ffffff"
-      }
-    },
-    "ec73cea9-6038-4509-8d5c-d532967b4490": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
       }
     },
     "promo-grid2": {
@@ -431,7 +419,6 @@
     "802f7f66-13cd-4ea0-8c70-242e9dd19588",
     "5aa13ead-dc14-4b8e-bb21-d439e719a207",
     "0e392686-9203-46d0-b5b6-771a2b335ad2",
-    "ec73cea9-6038-4509-8d5c-d532967b4490",
     "promo-grid2",
     "blog-posts",
     "d4a31469-1d4b-45eb-91d2-4bf949cda30d",
