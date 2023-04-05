@@ -34,8 +34,9 @@
             "link_text_2": "Shop all",
             "color_accent": "#000000",
             "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-04-05_at_12.54.02_AM.png",
             "parallax_direction": "top",
-            "overlay_opacity": 8
+            "overlay_opacity": 0
           }
         }
       },
