@@ -10627,8 +10627,9 @@ html[dir=rtl] .background-media-text__text{
 .newsletter__input-group:last-child{
     margin-bottom:0;
   }
-.newsletter__input-group input {
+.newsletter__input-group .input-group-field {
   margin-bottom:8px;
+  width:100%;
 }
 .newsletter__input::-webkit-input-placeholder{
     color:{{ settings.color_body_text | default: "#1c1d1d" }};
