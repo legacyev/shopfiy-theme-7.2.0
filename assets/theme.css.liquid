@@ -8538,7 +8538,7 @@ input[type=image]{
 
 .slideshow__slide .animation-contents,[data-aos=hero__animation] .animation-contents{
     opacity:0;
-    transform:translateY(15px);
+    transform:translateY(0px);
     transition:none;
   }
 
@@ -8568,12 +8568,12 @@ input[type=image]{
   }
 
 .loaded .slideshow__slide.is-selected .hero__title .animation-contents,[data-aos=hero__animation].loaded .hero__title .animation-contents{
-    animation:0.8s cubic-bezier(0.26, 0.54, 0.32, 1) 0.3s forwards;
+    animation:0.8s cubic-bezier(0.26, 0.54, 0.32, 1) 0s forwards;
     animation-name:fade-in;
   }
 
 .loaded .slideshow__slide.is-selected .hero__subtitle .animation-contents,.loaded .slideshow__slide.is-selected .hero__top-subtitle .animation-contents,[data-aos=hero__animation].loaded .hero__subtitle .animation-contents,[data-aos=hero__animation].loaded .hero__top-subtitle .animation-contents{
-    animation:1s cubic-bezier(0.26, 0.54, 0.32, 1) 0.7s forwards;
+    animation:1s cubic-bezier(0.26, 0.54, 0.32, 1) 0s forwards;
     animation-name:fade-in;
   }
 
@@ -8582,11 +8582,11 @@ input[type=image]{
   }
 
 .loaded .slideshow__slide.is-selected .hero__link .btn,[data-aos=hero__animation].loaded .hero__link .btn{
-    animation:fade-in 2s ease 1.3s forwards;
+    animation:fade-in 2s ease 0s forwards;
   }
 
 .loaded .slideshow__slide.is-selected .hero__link .btn:nth-child(2),[data-aos=hero__animation].loaded .hero__link .btn:nth-child(2){
-    animation:fade-in 2s ease 1.6s forwards;
+    animation:fade-in 2s ease 0s forwards;
   }
 
 .loaded .slideshow__slide.is-selected .hero__image,.loaded .slideshow__slide.is-selected .hero__image--svg,.loaded .slideshow__slide.is-selected .hero__media,[data-aos=hero__animation].loaded .hero__image,[data-aos=hero__animation].loaded .hero__image--svg,[data-aos=hero__animation].loaded .hero__media{
@@ -8597,7 +8597,7 @@ input[type=image]{
 .loaded .slideshow__slide.is-selected .hero__image-wrapper,[data-aos=hero__animation].loaded .hero__image-wrapper{
     opacity:1;
     transform:translateX(0px);
-    transition:transform 0.7s ease,opacity 0.7s ease;
+    transition:transform 0.7s ease,opacity 0s ease;
   }
 
 [data-aos=hero__animation].loaded .hero__image-wrapper{
@@ -8618,7 +8618,7 @@ input[type=image]{
     opacity:0;
 /*     transform:translateX(-200px); */
     transform:translateX(0px);
-    transition:transform 0.5s ease-in 0.05s,opacity 0.5s ease-in 0.05s;
+    transition:transform 0.5s ease-in 0s,opacity 0.5s ease-in 0s;
   }
 
 .slideshow__slide.animate-out .hero__link{
