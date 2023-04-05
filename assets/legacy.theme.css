@@ -64,6 +64,9 @@
 .hidden {
   display: none;
 }
+.shopfiy-section {
+  padding:11.5rem 0;
+}
 
 /* Header */
  .site-nav--right {
