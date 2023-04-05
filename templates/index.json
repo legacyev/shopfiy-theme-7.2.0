@@ -371,8 +371,8 @@
         "title": "Hear from our Authorized Installers",
         "align_text": "center",
         "round_images": false,
-        "color_background": "#cdd3c9",
-        "color_text": "#ffffff"
+        "color_background": "#f5f5f5",
+        "color_text": "{{ shop.brand.colors.secondary[0].foreground }}"
       }
     },
     "e80701da-7706-4854-ac96-35f55e356662": {
