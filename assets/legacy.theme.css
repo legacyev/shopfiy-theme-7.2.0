@@ -58,9 +58,12 @@
 }
 
 /* Layout */
-  .page-width {
-    max-width: 1220px;
-  }
+.page-width {
+  max-width: 1220px;
+}
+.hidden {
+  display" none;
+}
 
 /* Header */
  .site-nav--right {
