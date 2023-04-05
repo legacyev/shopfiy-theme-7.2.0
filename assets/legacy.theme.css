@@ -214,10 +214,10 @@
      max-width: 1160px;
      margin: 60px auto;
 }
-body.template-index .hero__title {
+/* body.template-index .hero__title {
    font-size: 28px;
    line-height: 1.4;
-}
+} */
 body.template-index .hero__title,
 body.template-index .hero__subtitle {
     max-width: 30rem;
