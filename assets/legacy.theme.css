@@ -64,7 +64,7 @@
 .hidden {
   display: none;
 }
-.shopfiy-section {
+.shopify-section > * {
   padding:11.5rem 0;
 }
 .index-section {
