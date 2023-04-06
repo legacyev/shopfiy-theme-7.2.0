@@ -7,7 +7,7 @@
     "color_borders": "#232323",
     "color_button": "#111111",
     "color_button_text": "#ffffff",
-    "color_sale_tag": "#1c1d1d",
+    "color_sale_tag": "{{ shop.brand.colors.secondary[0].background }}",
     "color_cart_dot": "#ff4f33",
     "color_small_image_bg": "#f4f4f4",
     "color_large_image_bg": "#0f0f0f",
