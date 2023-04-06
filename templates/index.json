@@ -54,6 +54,42 @@
         "lazyload_images": true
       }
     },
+    "19ae8a38-fcd1-47c7-8e8f-dde673501720": {
+      "type": "rich-text",
+      "blocks": {
+        "730a8d19-71f0-439a-b207-8dab872d1e53": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "Button"
+          }
+        },
+        "66ae45b9-a7b8-421d-ba93-0c5f2e14e3ed": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "Button"
+          }
+        },
+        "4c30f4b1-ccf4-43f3-8b7d-14125e8416da": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "Button"
+          }
+        }
+      },
+      "block_order": [
+        "730a8d19-71f0-439a-b207-8dab872d1e53",
+        "66ae45b9-a7b8-421d-ba93-0c5f2e14e3ed",
+        "4c30f4b1-ccf4-43f3-8b7d-14125e8416da"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "802f7f66-13cd-4ea0-8c70-242e9dd19588": {
       "type": "text-columns",
       "blocks": {
@@ -83,6 +119,7 @@
         },
         "template--16057369559206__802f7f66-13cd-4ea0-8c70-242e9dd19588-168033413370ff6233-2": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image_mask": "none",
@@ -99,10 +136,33 @@
         "template--16057369559206__802f7f66-13cd-4ea0-8c70-242e9dd19588-168033413370ff6233-1",
         "template--16057369559206__802f7f66-13cd-4ea0-8c70-242e9dd19588-168033413370ff6233-2"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "We're EV Experts",
         "align_text": "center",
         "divider": false
+      }
+    },
+    "41e59b59-aa2d-4431-b1d4-6d759ac6bffb": {
+      "type": "text-and-image",
+      "settings": {
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Fleet Conversions",
+        "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+        "button_label": "hellio",
+        "button_link": "",
+        "button_style": "secondary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": false,
+        "bottom_padding": true,
+        "lazyload_images": true
       }
     },
     "5aa13ead-dc14-4b8e-bb21-d439e719a207": {
@@ -177,71 +237,6 @@
         "divider": false,
         "text_color": "rgba(0,0,0,0)",
         "background_color": "#ffffff"
-      }
-    },
-    "promo-grid2": {
-      "type": "promo-grid",
-      "blocks": {
-        "promo2-0": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
-            "cta_link1": "shopify:\/\/collections\/all",
-            "cta_text2": "Shop All",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "100",
-            "height": 720,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        },
-        "promo2-1": {
-          "type": "sale_collection",
-          "settings": {
-            "sale_collection": "",
-            "top_text": "Up to",
-            "middle_text": "50% off",
-            "bottom_text": "Select products",
-            "width": "50",
-            "color_tint": "#000000",
-            "color_tint_opacity": 0,
-            "boxed": false,
-            "framed": true
-          }
-        },
-        "promo2-2": {
-          "type": "sale_collection",
-          "settings": {
-            "sale_collection": "",
-            "top_text": "Up to",
-            "middle_text": "50% off",
-            "bottom_text": "Select products",
-            "width": "50",
-            "color_tint": "#000000",
-            "color_tint_opacity": 0,
-            "boxed": false,
-            "framed": true
-          }
-        }
-      },
-      "block_order": [
-        "promo2-0",
-        "promo2-1",
-        "promo2-2"
-      ],
-      "settings": {
-        "full_width": false,
-        "gutter_size": 20,
-        "space_above": false,
-        "space_below": false,
-        "lazyload_images": true
       }
     },
     "blog-posts": {
@@ -417,10 +412,11 @@
   },
   "order": [
     "slideshow",
+    "19ae8a38-fcd1-47c7-8e8f-dde673501720",
     "802f7f66-13cd-4ea0-8c70-242e9dd19588",
+    "41e59b59-aa2d-4431-b1d4-6d759ac6bffb",
     "5aa13ead-dc14-4b8e-bb21-d439e719a207",
     "0e392686-9203-46d0-b5b6-771a2b335ad2",
-    "promo-grid2",
     "blog-posts",
     "d4a31469-1d4b-45eb-91d2-4bf949cda30d",
     "c56bfd12-600d-46ee-bd02-084d3d6c8b98",
