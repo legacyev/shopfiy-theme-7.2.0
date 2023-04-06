@@ -239,74 +239,6 @@
         "background_color": "#ffffff"
       }
     },
-    "blog-posts": {
-      "type": "blog-posts",
-      "settings": {
-        "title": "From the journal",
-        "blog": "news",
-        "post_limit": 3,
-        "blog_show_tags": false,
-        "blog_show_date": true,
-        "blog_show_comments": false,
-        "blog_show_author": false,
-        "view_all": true,
-        "blog_image_size": "wide",
-        "divider": false
-      }
-    },
-    "d4a31469-1d4b-45eb-91d2-4bf949cda30d": {
-      "type": "promo-grid",
-      "blocks": {
-        "fb4515ab-bc1c-46aa-a56f-8874362e02bc": {
-          "type": "product",
-          "settings": {
-            "product": "0",
-            "subheading": "Limited time",
-            "heading": "Announce your product",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "link_label": "Learn more",
-            "label": "New",
-            "enable_price": false,
-            "width": "50",
-            "text_size": 100,
-            "color_tint": "#000000",
-            "color_tint_opacity": 0,
-            "framed": false
-          }
-        },
-        "template--16057369559206__d4a31469-1d4b-45eb-91d2-4bf949cda30d-16793796613abc132a-1": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "Announce your promotion",
-            "textarea": "",
-            "cta_text1": "Shop This",
-            "cta_link1": "",
-            "cta_text2": "Shop All",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "50",
-            "height": 280,
-            "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "fb4515ab-bc1c-46aa-a56f-8874362e02bc",
-        "template--16057369559206__d4a31469-1d4b-45eb-91d2-4bf949cda30d-16793796613abc132a-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "gutter_size": 20,
-        "space_above": true,
-        "space_below": true,
-        "lazyload_images": true
-      }
-    },
     "c56bfd12-600d-46ee-bd02-084d3d6c8b98": {
       "type": "testimonials",
       "blocks": {
@@ -371,6 +303,21 @@
         "color_text": "{{ shop.brand.colors.secondary[0].foreground }}"
       }
     },
+    "blog-posts": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "From the journal",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    },
     "e80701da-7706-4854-ac96-35f55e356662": {
       "type": "newsletter",
       "blocks": {
@@ -417,9 +364,8 @@
     "41e59b59-aa2d-4431-b1d4-6d759ac6bffb",
     "5aa13ead-dc14-4b8e-bb21-d439e719a207",
     "0e392686-9203-46d0-b5b6-771a2b335ad2",
-    "blog-posts",
-    "d4a31469-1d4b-45eb-91d2-4bf949cda30d",
     "c56bfd12-600d-46ee-bd02-084d3d6c8b98",
+    "blog-posts",
     "e80701da-7706-4854-ac96-35f55e356662"
   ]
 }
