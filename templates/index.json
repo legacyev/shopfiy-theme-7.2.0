@@ -21,18 +21,18 @@
             "overlay_opacity": 0
           }
         },
-        "slideshow-1": {
+        "c37c4211-c1c7-44dd-967d-35c822b21d71": {
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Two line\ntitle slide.",
+            "title": "Previewing  Project E",
             "title_size": 40,
             "subheading": "Every element of Legacy kits are specifically designed to work in conjunction with one another ensuring that you don’t need to spend months of research and endless days scouring the internet to find the properly compatible components.",
             "link": "shopify:\/\/collections\/all",
-            "link_text": "Shop all",
-            "link_2": "shopify:\/\/collections\/all",
-            "link_text_2": "Shop all",
-            "color_accent": "#000000",
+            "link_text": "Learn more →",
+            "link_2": "",
+            "link_text_2": "fsdafad",
+            "color_accent": "{{ shop.brand.colors.secondary[0].background }}",
             "text_align": "vertical-bottom horizontal-left",
             "image": "shopify:\/\/shop_images\/Screenshot_2023-04-05_at_12.54.02_AM.png",
             "parallax_direction": "top",
@@ -42,7 +42,7 @@
       },
       "block_order": [
         "slideshow-0",
-        "slideshow-1"
+        "c37c4211-c1c7-44dd-967d-35c822b21d71"
       ],
       "settings": {
         "section_height": "750px",
