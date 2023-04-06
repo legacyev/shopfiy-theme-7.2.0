@@ -119,7 +119,6 @@
         },
         "template--16057369559206__802f7f66-13cd-4ea0-8c70-242e9dd19588-168033413370ff6233-2": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "enable_image": true,
             "image_mask": "none",
@@ -143,26 +142,6 @@
         "title": "We're EV Experts",
         "align_text": "center",
         "divider": false
-      }
-    },
-    "41e59b59-aa2d-4431-b1d4-6d759ac6bffb": {
-      "type": "text-and-image",
-      "settings": {
-        "image_mask": "none",
-        "image2_mask": "none",
-        "subtitle": "",
-        "title": "Fleet Conversions",
-        "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-        "button_label": "hellio",
-        "button_link": "",
-        "button_style": "secondary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "right",
-        "divider": false,
-        "top_padding": false,
-        "bottom_padding": true,
-        "lazyload_images": true
       }
     },
     "5aa13ead-dc14-4b8e-bb21-d439e719a207": {
@@ -361,7 +340,6 @@
     "slideshow",
     "19ae8a38-fcd1-47c7-8e8f-dde673501720",
     "802f7f66-13cd-4ea0-8c70-242e9dd19588",
-    "41e59b59-aa2d-4431-b1d4-6d759ac6bffb",
     "5aa13ead-dc14-4b8e-bb21-d439e719a207",
     "0e392686-9203-46d0-b5b6-771a2b335ad2",
     "c56bfd12-600d-46ee-bd02-084d3d6c8b98",
