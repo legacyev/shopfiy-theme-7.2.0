@@ -9366,10 +9366,11 @@ html[dir=rtl] .grid-product__content{
 .grid-product__tag{
   font-size:calc(var(--typeBaseSize)*0.65);
   position:absolute;
-  top:0;
-  right:0;
+  top:1rem;
+  right:1rem;
   line-height:1;
   padding:6px 5px 6px 7px;
+  border-radius: 50%;
   background-color:{{ settings.color_button | default: "#000" }};
   background-color:var(--colorBtnPrimary);
   color:{{ settings.color_button_text | default: "#fff" }};
@@ -9388,7 +9389,7 @@ html[dir=rtl] .grid-product__content{
 @media only screen and (min-width:769px){
 
 .grid-product__tag{
-    font-size:calc(var(--typeBaseSize)*0.85);
+    font-size:calc(var(--typeBaseSize)*0.8);
     padding:7px 7px 7px 9px
 }
   }
