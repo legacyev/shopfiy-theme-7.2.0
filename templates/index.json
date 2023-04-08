@@ -190,8 +190,9 @@
           "settings": {
             "icon": "quote",
             "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
+            "image": "shopify:\/\/shop_images\/326920924_5899014520177952_8661151891767463380_n.jpg",
+            "author": "Wyld Garage Co.",
+            "author_info": "Scottsdale, AZ"
           }
         },
         "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-1": {
@@ -199,8 +200,9 @@
           "settings": {
             "icon": "quote",
             "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
+            "image": "shopify:\/\/shop_images\/hauk.png",
+            "author": "Hauk Designs",
+            "author_info": "Chambersburg, PA"
           }
         },
         "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-2": {
@@ -208,8 +210,9 @@
           "settings": {
             "icon": "quote",
             "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
+            "image": "shopify:\/\/shop_images\/gateway.png",
+            "author": "Gateway Bronco",
+            "author_info": "Hamel, IL"
           }
         },
         "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-3": {
@@ -217,17 +220,9 @@
           "settings": {
             "icon": "quote",
             "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
-          }
-        },
-        "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-4": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "quote",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
+            "image": "shopify:\/\/shop_images\/meC8Gl0N_400x400_71ed8f53-9d25-47f2-b210-673020c4d527.jpg",
+            "author": "Impatient Creations",
+            "author_info": "Alabaster, AL"
           }
         }
       },
@@ -235,13 +230,12 @@
         "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-0",
         "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-1",
         "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-2",
-        "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-3",
-        "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-4"
+        "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-3"
       ],
       "settings": {
         "title": "Hear from our Authorized Installers",
         "align_text": "center",
-        "round_images": false,
+        "round_images": true,
         "color_background": "#f5f5f5",
         "color_text": "{{ shop.brand.colors.secondary[0].foreground }}"
       }
