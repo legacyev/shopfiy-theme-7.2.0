@@ -293,8 +293,8 @@
         "image_width": "33",
         "image_mask": "none",
         "image_position": "right",
-        "color_background": "{{ shop.brand.colors.secondary[0].foreground }}",
-        "color_text": "{{ shop.brand.colors.primary[0].foreground }}",
+        "color_background": "#cdd3c9",
+        "color_text": "#232323",
         "top_padding": true,
         "bottom_padding": true
       }
