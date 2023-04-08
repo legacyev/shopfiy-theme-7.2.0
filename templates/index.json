@@ -185,16 +185,6 @@
     "c56bfd12-600d-46ee-bd02-084d3d6c8b98": {
       "type": "testimonials",
       "blocks": {
-        "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-0": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "quote",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "image": "shopify:\/\/shop_images\/326920924_5899014520177952_8661151891767463380_n.jpg",
-            "author": "Wyld Garage Co.",
-            "author_info": "Scottsdale, AZ"
-          }
-        },
         "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-1": {
           "type": "testimonial",
           "settings": {
@@ -215,6 +205,16 @@
             "author_info": "Hamel, IL"
           }
         },
+        "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "image": "shopify:\/\/shop_images\/326920924_5899014520177952_8661151891767463380_n.jpg",
+            "author": "Wyld Garage Co.",
+            "author_info": "Scottsdale, AZ"
+          }
+        },
         "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-3": {
           "type": "testimonial",
           "settings": {
@@ -227,9 +227,9 @@
         }
       },
       "block_order": [
-        "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-0",
         "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-1",
         "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-2",
+        "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-0",
         "template--16057369559206__c56bfd12-600d-46ee-bd02-084d3d6c8b98-16803342323ac0f05c-3"
       ],
       "settings": {
