@@ -181,7 +181,7 @@
       "settings": {
         "title": "As Seen On",
         "align_text": "center",
-        "logo_opacity": 50,
+        "logo_opacity": 70,
         "divider": false,
         "text_color": "#ffffff",
         "background_color": "{{ shop.brand.colors.secondary[0].foreground }}",
