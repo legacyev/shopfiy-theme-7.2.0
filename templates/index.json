@@ -26,7 +26,7 @@
           "settings": {
             "top_subheading": "",
             "title": "New Build:\nProject E",
-            "title_size": 40,
+            "title_size": 28,
             "subheading": "Every element of Legacy kits are specifically designed to work in conjunction with one another ensuring that you don’t need to spend months of research and endless days scouring the internet to find the properly compatible components.",
             "link": "shopify:\/\/collections\/all",
             "link_text": "Learn more →",
@@ -273,6 +273,7 @@
       "type": "blog-posts",
       "settings": {
         "title": "In the news",
+        "align_text": "center",
         "blog": "news",
         "post_limit": 3,
         "blog_show_tags": false,
@@ -281,7 +282,8 @@
         "blog_show_author": false,
         "view_all": false,
         "blog_image_size": "square",
-        "divider": false
+        "divider": false,
+        "padding": true
       }
     },
     "e80701da-7706-4854-ac96-35f55e356662": {
