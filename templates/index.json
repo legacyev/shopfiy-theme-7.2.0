@@ -114,30 +114,56 @@
         "template--16057369559206__5aa13ead-dc14-4b8e-bb21-d439e719a207-1680331772062de203-0": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/featured-goodguys-light.png",
             "link": ""
           }
         },
         "template--16057369559206__5aa13ead-dc14-4b8e-bb21-d439e719a207-1680331772062de203-1": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/logo-american-racing-light.png",
             "link": ""
           }
         },
         "template--16057369559206__5aa13ead-dc14-4b8e-bb21-d439e719a207-1680331772062de203-2": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/logo-barrett-jackson-light_ed075f42-3386-47d1-b0f6-934407993c01.png",
             "link": ""
           }
         },
         "template--16057369559206__5aa13ead-dc14-4b8e-bb21-d439e719a207-1680331772062de203-3": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/logo-fuel-curve-light.png",
             "link": ""
           }
         },
         "e86e4fcb-1cd0-4f36-99e7-7a433c588fc6": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/logo-fyi-light.png",
+            "link": ""
+          }
+        },
+        "2c0a5790-5e30-4d58-8179-dd0e2b08649d": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo-history-light.png",
+            "link": ""
+          }
+        },
+        "7ed31f4d-1592-4253-a6d1-6a8d74fe69a5": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo-inside-evs-light_67432a50-956d-414d-951c-839c01bdfafa.png",
+            "link": ""
+          }
+        },
+        "b30a6d5e-048f-4182-ad9b-592bafead671": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo-motor-trend-light.png",
             "link": ""
           }
         }
@@ -147,12 +173,15 @@
         "template--16057369559206__5aa13ead-dc14-4b8e-bb21-d439e719a207-1680331772062de203-1",
         "template--16057369559206__5aa13ead-dc14-4b8e-bb21-d439e719a207-1680331772062de203-2",
         "template--16057369559206__5aa13ead-dc14-4b8e-bb21-d439e719a207-1680331772062de203-3",
-        "e86e4fcb-1cd0-4f36-99e7-7a433c588fc6"
+        "e86e4fcb-1cd0-4f36-99e7-7a433c588fc6",
+        "2c0a5790-5e30-4d58-8179-dd0e2b08649d",
+        "7ed31f4d-1592-4253-a6d1-6a8d74fe69a5",
+        "b30a6d5e-048f-4182-ad9b-592bafead671"
       ],
       "settings": {
-        "title": "Partners Aplenty",
+        "title": "As Seen On",
         "align_text": "center",
-        "logo_opacity": 100,
+        "logo_opacity": 50,
         "divider": false,
         "text_color": "#ffffff",
         "background_color": "{{ shop.brand.colors.secondary[0].foreground }}",
