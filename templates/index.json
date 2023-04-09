@@ -7,8 +7,8 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Powered by Legacy EV",
-            "title_size": 40,
+            "title": "Powered by\nLegacy EV",
+            "title_size": 28,
             "subheading": "Every element of Legacy kits are specifically designed to work in conjunction with one another ensuring that you don’t need to spend months of research and endless days scouring the internet to find the properly compatible components.",
             "link": "shopify:\/\/collections\/all",
             "link_text": "Learn more →",
@@ -25,7 +25,7 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Previewing  Project E",
+            "title": "New Build:\nProject E",
             "title_size": 40,
             "subheading": "Every element of Legacy kits are specifically designed to work in conjunction with one another ensuring that you don’t need to spend months of research and endless days scouring the internet to find the properly compatible components.",
             "link": "shopify:\/\/collections\/all",
