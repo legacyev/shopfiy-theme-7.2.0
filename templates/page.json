@@ -1,39 +1,5 @@
 {
   "sections": {
-    "543e5a20-8f01-45ef-861a-b633898a4db2": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16057369034918__543e5a20-8f01-45ef-861a-b633898a4db2-167987047013b9f4db-0": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "Honor the Past,\nProtect the Future",
-            "title_size": 48,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-bottom horizontal-left",
-            "parallax_direction": "top",
-            "overlay_opacity": 24
-          }
-        }
-      },
-      "block_order": [
-        "template--16057369034918__543e5a20-8f01-45ef-861a-b633898a4db2-167987047013b9f4db-0"
-      ],
-      "settings": {
-        "section_height": "650px",
-        "mobile_height": "auto",
-        "parallax": true,
-        "style": "bars",
-        "autoplay": true,
-        "autoplay_speed": 5,
-        "lazyload_images": true
-      }
-    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -48,7 +14,7 @@
         "button_label": "",
         "button_link": "",
         "layout": "left",
-        "height": 550,
+        "height": 450,
         "framed": false,
         "parallax": false,
         "parallax_direction": "top",
@@ -57,7 +23,6 @@
     }
   },
   "order": [
-    "543e5a20-8f01-45ef-861a-b633898a4db2",
     "main",
     "1e901819-948c-4139-8b09-4d561f0a2cd5"
   ]
