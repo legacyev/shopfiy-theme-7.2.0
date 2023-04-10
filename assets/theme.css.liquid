@@ -3270,13 +3270,12 @@ button[disabled],html input[disabled]{
     }
 
 .btn--secondary:hover,.rte .btn--secondary:hover{
-    color:{{ settings.color_body_text | default: "#1c1d1d" }};
-    color:var(--colorTextBody);
+    color:{{ settings.color_button_secondary_text | default: "#ffffff" | color_darken: 30 }};
     border-color:{{ settings.color_body_text | default: "#1c1d1d" }};
     border-color:var(--colorTextBody);
     background-color:transparent; 
     transition:border 0.3s ease;
-  background:{{ settings.color_button_secondary | color_darken: 5 }};
+    background:{{ settings.color_button_secondary | default: "#1c1d1d" | color_darken: 100 }};
   }
 
 .btn--secondary:hover:before,.rte .btn--secondary:hover:before{
