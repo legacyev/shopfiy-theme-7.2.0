@@ -272,6 +272,8 @@
     "blog-posts": {
       "type": "blog-posts",
       "settings": {
+        "color_background": "#1c1d1d",
+        "color_text": "#ffffff",
         "title": "In the news",
         "align_text": "center",
         "blog": "news",
