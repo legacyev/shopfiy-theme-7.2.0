@@ -12,7 +12,7 @@
     background-color: {{ section.settings.color_background }};
   }
   {% if section.settings.padding == true %}
-    .blog-list{ padding: 5rem !important; }
+    .blog-list{ padding: 5rem 0 !important; }
   {% endif %}
 
 {%- endstyle -%}
@@ -36,7 +36,7 @@
 
   {%- unless blog.empty? or blog.articles.size == 0 -%}
 
-    <div class="grid grid--uniform">
+    <div class="page-width grid grid--uniform">
       {%- for article in blog.articles limit: section.settings.post_limit -%}
         {%- render 'article-grid-item',
           blog: blog,
