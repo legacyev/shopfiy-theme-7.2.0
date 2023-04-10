@@ -36,7 +36,7 @@
 
   {%- unless blog.empty? or blog.articles.size == 0 -%}
 
-    <div class="page-width grid grid--uniform">
+    <div class="grid grid--uniform">
       {%- for article in blog.articles limit: section.settings.post_limit -%}
         {%- render 'article-grid-item',
           blog: blog,
