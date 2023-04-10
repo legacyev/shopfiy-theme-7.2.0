@@ -3228,9 +3228,9 @@ button[disabled],html input[disabled]{
 .btn--secondary,.rte .btn--secondary{
   border:1px solid;
   border-color:var(--colorBorder);
-  color:{{ settings.color_button_secondary_text }};
+  color:{{ settings.color_button_secondary_text | default: "#ffffff"  }};
   color:var(--colorBtnSecondaryText);
-  background:{{ settings.color_button_secondary }};
+  background:{{ settings.color_button_secondary | default: "#1c1d1d"  }};
   background:var(--colorBtnSecondary)
 }
 
