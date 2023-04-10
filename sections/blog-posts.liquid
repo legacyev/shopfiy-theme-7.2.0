@@ -1,5 +1,9 @@
 {%- style -%}
   
+  .blog-list-{{ section.id }} {
+    background-color: {{ section.settings.color_background }};
+    color: {{ section.settings.color_text }};
+  }
   {% if section.settings.padding == true %}
     .blog-list{ padding-top: 5rem !important; }
   {% endif %}
