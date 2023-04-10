@@ -85,10 +85,29 @@
             "container_width": 25
           }
         },
-        "footer-0": {
+        "e8b182d5-2f00-4cfe-9313-6ab12a7bcc86": {
+          "type": "newsletter",
+          "settings": {
+            "show_footer_title": false,
+            "title": "Social",
+            "text": "",
+            "container_width": 20
+          }
+        },
+        "615b9af4-7b60-4014-ac0b-b94a2aec7d3f": {
           "type": "logo_social",
           "settings": {
-            "desktop_logo_height": 50,
+            "logo": "shopify:\/\/shop_images\/logo-lev-stroke_de4ab49b-a69c-4342-854c-ec57f0735fc9.png",
+            "desktop_logo_height": 61,
+            "container_width": 25
+          }
+        },
+        "20fede56-b1ec-42fd-9793-185269a6db76": {
+          "type": "custom",
+          "settings": {
+            "show_footer_title": false,
+            "title": "Custom text",
+            "text": "<p>© Legacy EV 2023<\/p><p>712 S Hacienda Dr. Suite 1 Tempe AZ     |   <a href=\"tel:(602)5183233\" target=\"_blank\" title=\"tel:(602)5183233\">(602) 518-3233<\/a>   |    <a href=\"tel:(602)5183233\" target=\"_blank\" title=\"mailto:info@legacyev.com\">info@legacyev.com<\/a><\/p>",
             "container_width": 95
           }
         }
@@ -98,14 +117,21 @@
         "db631c28-0ed4-4095-9750-a41ee55edd10",
         "067df950-62c3-4a43-89af-f00526039e62",
         "402b18fc-4f32-4f82-963e-1d87691dd0e7",
-        "footer-0"
+        "e8b182d5-2f00-4cfe-9313-6ab12a7bcc86",
+        "615b9af4-7b60-4014-ac0b-b94a2aec7d3f",
+        "20fede56-b1ec-42fd-9793-185269a6db76"
+      ],
+      "custom_css": [
+        ".footer__newsletter {display: none;}",
+        ".site-footer__linklist a,.footer__collapsible p {font-size: 90%;}",
+        "@media only screen and (min-width: 769px) {.footer__social {text-align: left !important; }}"
       ],
       "settings": {
         "show_locale_selector": true,
         "show_currency_selector": true,
         "show_currency_flags": true,
         "show_payment_icons": true,
-        "show_copyright": true,
+        "show_copyright": false,
         "copyright_text": ""
       }
     }
