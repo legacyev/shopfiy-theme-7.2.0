@@ -1,10 +1,11 @@
 {%- style -%}
   
-  .blog-list {
+  .blog-list,
+  .blog-list .grid__image-ratio{
     background-color: {{ section.settings.color_background }};
-    color: {{ section.settings.color_text }};
+    color: {{ section.settings.color_text | color_darken: 10 }};
   }
-  .blog-list a {
+  .blog-list a{
     color: {{ section.settings.color_text }};
   }
   .blog-list .grid__image-ratio {
