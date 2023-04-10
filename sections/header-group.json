@@ -10,7 +10,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/logo-ev.png",
             "logo-inverted": "shopify:\/\/shop_images\/Logo_on_Black.png",
-            "desktop_logo_width": 140,
+            "desktop_logo_width": 120,
             "mobile_logo_width": 100
           }
         }
