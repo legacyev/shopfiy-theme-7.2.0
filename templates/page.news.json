@@ -1,0 +1,66 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "a2f993dd-82e4-46fb-bc4a-259bfedcc805": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16057369034918__a2f993dd-82e4-46fb-bc4a-259bfedcc805-16811655799a591f98-0": {
+          "type": "heading",
+          "settings": {
+            "title": ""
+          }
+        },
+        "template--16057369034918__a2f993dd-82e4-46fb-bc4a-259bfedcc805-16811655799a591f98-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><strong>Calculating your Vehicles Theoretical Top Speed <\/strong><\/p><p>Many EVs are built with a single speed tranmission (more commonly known as a gear reducer). While gear reduction is immensley helpful making better use of your vehicle wide RPM band, it may lower your EV's Top Speed. Enter the information specifiction to your vehicle below to undertsand how moving to a single speed transmission will affect your cars performance.<\/p><p><\/p><p> <\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16057369034918__a2f993dd-82e4-46fb-bc4a-259bfedcc805-16811655799a591f98-0",
+        "template--16057369034918__a2f993dd-82e4-46fb-bc4a-259bfedcc805-16811655799a591f98-1"
+      ],
+      "custom_css": [
+        "p {padding-bottom: 0.25rem;}"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "1009f77d-3a5c-4d77-9cbd-71432b2e2994": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16057369034918__1009f77d-3a5c-4d77-9cbd-71432b2e2994-16811653542bf64523-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<iframe src=\"https:\/\/app.calconic.com\/api\/embed\/calculator\/6276a93e18addd002aefd1eb\" sandbox=\"allow-same-origin allow-forms allow-scripts allow-top-navigation allow-popups-to-escape-sandbox allow-popups\" title=\"Calconic_ Calculator\" name=\"Calconic_ Calculator\" scrolling=\"no\" style=\" margin: 0 auto; width: 100%; padding: 5rem; border: 0; background: #f5f5f5;\"><\/iframe>\n<script>\n  (function() {\n    window.addEventListener(\"message\",function(t){\n      var e=\"https:\/\/www.paypalobjects.com\/api\/checkout.4.0.141.js\";\n      if(!document.querySelector('script[src=\"'+e+'\"]')&&t.data&&\"LOAD_PAYPAL\"===t.data.action){\n      var a=document.createElement(\"script\");a.src=e,a.async=!0,a.dataset={paypalCheckout:!0,noBridge:!0,state:\"ppxo_meta\",env:\"production\"},document.body.append(a)\n      }if(t.data&&\"CALCONIC_UPDATE_HEIGHT\"===t.data.action){\n      var s=document.querySelector('iframe[src=\"https:\/\/app.calconic.com\/api\/embed\/calculator\/'+t.data.payload.id+'\"]');\n      if(s){s.height=t.data.payload.height}}\n    });\n  })();\n<\/script>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16057369034918__1009f77d-3a5c-4d77-9cbd-71432b2e2994-16811653542bf64523-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a2f993dd-82e4-46fb-bc4a-259bfedcc805",
+    "1009f77d-3a5c-4d77-9cbd-71432b2e2994"
+  ]
+}
