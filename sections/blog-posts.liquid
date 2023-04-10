@@ -3,13 +3,12 @@
   .blog-list {
     background-color: {{ section.settings.color_background }};
     color: {{ section.settings.color_text }};
-    padding-bottom: 5rem;
   }
   .blog-list a {
     color: {{ section.settings.color_text }};
   }
   {% if section.settings.padding == true %}
-    .blog-list{ padding-top: 5rem !important; }
+    .blog-list{ padding: 5rem !important; }
   {% endif %}
 
 {%- endstyle -%}
