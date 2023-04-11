@@ -2,11 +2,47 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "7c1b3b7d-1b3c-4884-b7da-ff45a75196cd": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16057369034918__7c1b3b7d-1b3c-4884-b7da-ff45a75196cd-1681196486cf5afb3c-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "EV EDUCATION",
+            "title": "Dont fear change.\nDrive it.",
+            "title_size": 28,
+            "subheading": "Driven by change? Electrify your education with Legacy EV's Certified Technician Program!",
+            "link": "shopify:\/\/pages\/about",
+            "link_text": "Test Drive",
+            "link_2": "",
+            "link_text_2": "Buy Now",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 26
+          }
+        }
+      },
+      "block_order": [
+        "template--16057369034918__7c1b3b7d-1b3c-4884-b7da-ff45a75196cd-1681196486cf5afb3c-0"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "7c1b3b7d-1b3c-4884-b7da-ff45a75196cd"
   ]
 }
