@@ -20,7 +20,7 @@
             "link_text": "Test Drive",
             "link_2": "",
             "link_text_2": "Buy Now",
-            "color_accent": "rgba(0,0,0,0)",
+            "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
             "parallax_direction": "top",
             "overlay_opacity": 26
@@ -34,9 +34,9 @@
         ".hero__link {display: flex; justify-content: center;}"
       ],
       "settings": {
-        "section_height": "650px",
+        "section_height": "550px",
         "mobile_height": "auto",
-        "parallax": true,
+        "parallax": false,
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 5,
