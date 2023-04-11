@@ -42,10 +42,83 @@
         "autoplay_speed": 5,
         "lazyload_images": true
       }
+    },
+    "a3fa27fb-1dee-449e-a988-85fc0b267190": {
+      "type": "text-columns",
+      "blocks": {
+        "template--16057369034918__a3fa27fb-1dee-449e-a988-85fc0b267190-1681238031ee2df5bb-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>What was once a whimsical notion of the disruption to the ICE vehicles and education we know and love is happening today faster than ever.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "e5fd38b1-8afa-4f9a-91cf-b06bb4efd3fe": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>From industry giants and local shops to individuals ready to drive change, EV education is at the forefront of conversations in our industry.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "b78e16f2-4799-4996-9f35-a901c2dac652": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>With proven expertise and training in electric vehicle systems and conversions, we can help you embrace this exciting future of EVs with LegacyEV's Certified Technician Program.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16057369034918__a3fa27fb-1dee-449e-a988-85fc0b267190-1681238031ee2df5bb-0",
+        "e5fd38b1-8afa-4f9a-91cf-b06bb4efd3fe",
+        "b78e16f2-4799-4996-9f35-a901c2dac652"
+      ],
+      "settings": {
+        "title": "CHANGE IS HAPPENING IN THE AUTOMOTIVE INDUSTRY.",
+        "align_text": "center",
+        "divider": true
+      }
+    },
+    "5580bc51-da12-45c6-b003-df5aa714e457": {
+      "type": "text-and-image",
+      "settings": {
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Image with text",
+        "text": "<p>Upon completing LegacyEV’s Certified Technician Program, students will be able to:<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
     "main",
-    "7c1b3b7d-1b3c-4884-b7da-ff45a75196cd"
+    "7c1b3b7d-1b3c-4884-b7da-ff45a75196cd",
+    "a3fa27fb-1dee-449e-a988-85fc0b267190",
+    "5580bc51-da12-45c6-b003-df5aa714e457"
   ]
 }
