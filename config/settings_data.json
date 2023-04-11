@@ -46,7 +46,7 @@
     "type_collection_font": "body",
     "type_collection_size": 24,
     "button_style": "round-slight",
-    "icon_weight": "4px",
+    "icon_weight": "5px",
     "icon_linecaps": "miter",
     "product_save_amount": false,
     "vendor_enable": true,
