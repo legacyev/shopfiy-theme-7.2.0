@@ -122,6 +122,7 @@
         "20fede56-b1ec-42fd-9793-185269a6db76"
       ],
       "custom_css": [
+        ".site-footer {border: 0;}",
         ".footer__newsletter {display: none;}",
         ".site-footer__linklist a,.footer__collapsible p {font-size: 90%;}",
         "@media only screen and (min-width: 769px) {.footer__social {text-align: left !important; }}"
