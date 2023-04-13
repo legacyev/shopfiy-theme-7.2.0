@@ -9,6 +9,18 @@
         "parallax_direction": "top"
       }
     },
+    "a2a50d9c-4bed-4542-a2d0-20244b578769": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured Kits",
+        "home_featured_products": "",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "main-collection": {
       "type": "main-collection",
       "blocks": {
@@ -45,10 +57,47 @@
         "enable_color_swatches": false,
         "enable_sort": true
       }
+    },
+    "bf0e664d-2722-42f0-98c4-d4557784ea68": {
+      "type": "promo-grid",
+      "blocks": {
+        "template--16076118196390__bf0e664d-2722-42f0-98c4-d4557784ea68-168142655380b24f1a-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Education Plug",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "100",
+            "height": 140,
+            "text_size": 70,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16076118196390__bf0e664d-2722-42f0-98c4-d4557784ea68-168142655380b24f1a-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
     "collection-header",
-    "main-collection"
+    "a2a50d9c-4bed-4542-a2d0-20244b578769",
+    "main-collection",
+    "bf0e664d-2722-42f0-98c4-d4557784ea68"
   ]
 }
