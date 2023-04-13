@@ -1222,7 +1222,7 @@ body.template-index .hero__subtitle {
 }
 /* =========================================================== Other: About ============================================================================================= */
  body.template-page .index-section,body.template-page .rte>div {
-     margin: 0;
+/*      margin: 0; */
 }
  body.template-page .index-section p {
      line-height: 1.8;
