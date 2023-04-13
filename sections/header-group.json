@@ -2,40 +2,6 @@
   "type": "header",
   "name": "t:sections.header-group.name",
   "sections": {
-    "header": {
-      "type": "header",
-      "blocks": {
-        "header-0": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/logo-ev.png",
-            "logo-inverted": "shopify:\/\/shop_images\/Logo_on_Black.png",
-            "desktop_logo_width": 120,
-            "mobile_logo_width": 100
-          }
-        }
-      },
-      "block_order": [
-        "header-0"
-      ],
-      "custom_css": [
-        ".site-nav__link {padding: 0.25em 0.75em;}",
-        ".site-nav__link--underline:after {margin: 0 0.75em;}"
-      ],
-      "settings": {
-        "main_menu_link_list": "new-header",
-        "mega_menu_images": true,
-        "main_menu_alignment": "left",
-        "header_style": "normal",
-        "sticky_index": true,
-        "sticky_collection": true,
-        "toolbar_menu": "",
-        "toolbar_social": false,
-        "show_locale_selector": true,
-        "show_currency_selector": true,
-        "show_currency_flags": true
-      }
-    },
     "announcement": {
       "type": "announcement",
       "blocks": {
@@ -54,10 +20,53 @@
       "settings": {
         "announcement_compact": true
       }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "header-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/logo-ev.png",
+            "logo-inverted": "shopify:\/\/shop_images\/Logo_on_Black.png",
+            "desktop_logo_width": 120,
+            "mobile_logo_width": 100
+          }
+        },
+        "e21ad7fd-75d7-4516-acb0-03ac7d9e998c": {
+          "type": "announcement",
+          "settings": {
+            "text": "Hassle-free returns",
+            "link_text": "30-day postage paid returns",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "header-0",
+        "e21ad7fd-75d7-4516-acb0-03ac7d9e998c"
+      ],
+      "custom_css": [
+        ".site-nav__link {padding: 0.25em 0.75em;}",
+        ".site-nav__link--underline:after {margin: 0 0.75em;}"
+      ],
+      "settings": {
+        "main_menu_link_list": "new-header",
+        "mega_menu_images": true,
+        "main_menu_alignment": "left",
+        "header_style": "normal",
+        "sticky_index": true,
+        "sticky_collection": true,
+        "toolbar_menu": "",
+        "toolbar_social": false,
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "show_currency_flags": true
+      }
     }
   },
   "order": [
-    "header",
-    "announcement"
+    "announcement",
+    "header"
   ]
 }
