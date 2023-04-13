@@ -145,6 +145,56 @@
       "settings": {
         "title": "FAQs"
       }
+    },
+    "5404851c-2d42-4579-99c7-9625e3ff5494": {
+      "type": "featured-product",
+      "blocks": {
+        "template--16076118196390__5404851c-2d42-4579-99c7-9625e3ff5494-1681428001628fbec6-0": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--16076118196390__5404851c-2d42-4579-99c7-9625e3ff5494-1681428001628fbec6-1": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "template--16076118196390__5404851c-2d42-4579-99c7-9625e3ff5494-1681428001628fbec6-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        },
+        "20ff10e8-4944-4e00-a100-2d8ad5d7c741": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping information",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16076118196390__5404851c-2d42-4579-99c7-9625e3ff5494-1681428001628fbec6-0",
+        "template--16076118196390__5404851c-2d42-4579-99c7-9625e3ff5494-1681428001628fbec6-1",
+        "template--16076118196390__5404851c-2d42-4579-99c7-9625e3ff5494-1681428001628fbec6-3",
+        "20ff10e8-4944-4e00-a100-2d8ad5d7c741"
+      ],
+      "settings": {
+        "featured_product": "revolt-kit",
+        "divider": false,
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": false,
+        "thumbnail_position": "below",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
     }
   },
   "order": [
@@ -153,6 +203,7 @@
     "e42352c6-a18f-4c57-a750-54411bb51046",
     "bf0e664d-2722-42f0-98c4-d4557784ea68",
     "main-collection",
-    "6a3169fb-5874-4fc2-99d4-0ebfcc863e11"
+    "6a3169fb-5874-4fc2-99d4-0ebfcc863e11",
+    "5404851c-2d42-4579-99c7-9625e3ff5494"
   ]
 }
