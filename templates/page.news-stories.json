@@ -6,23 +6,115 @@
       "settings": {
       }
     },
-    "6798873b-ff20-4362-ab2e-77f590beaa9c": {
-      "type": "blog-posts",
+    "1e59ea04-931d-4918-bf33-5e2067c8ee6a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16076110397606__1e59ea04-931d-4918-bf33-5e2067c8ee6a-1681424553815a1172-0": {
+          "type": "heading",
+          "settings": {
+            "title": "NEWS & VIDEOS"
+          }
+        },
+        "template--16076110397606__1e59ea04-931d-4918-bf33-5e2067c8ee6a-1681424553815a1172-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>We're excited to work with journalists and publications across the country to share our journey and ambitions to making EV conversions as simple as possible. <\/p><p>If you're a member of the media and would like to talk, please get in to touch with our team by sending an email to <a href=\"mailto:media@legacyev.com\" target=\"_blank\" title=\"media@legacyev.com\">media@legacyev.com<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16076110397606__1e59ea04-931d-4918-bf33-5e2067c8ee6a-1681424553815a1172-0",
+        "template--16076110397606__1e59ea04-931d-4918-bf33-5e2067c8ee6a-1681424553815a1172-1"
+      ],
       "settings": {
-        "color_background": "{{ shop.brand.colors.secondary[0].foreground }}",
-        "color_text": "{{ shop.brand.colors.primary[0].foreground }}",
-        "title": "Media Room",
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "a6382f7a-b723-431d-a97c-fe037345d9bf": {
+      "type": "rich-text",
+      "blocks": {
+        "7284c618-278a-42b7-9445-e2ed81eb1ce3": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Online<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "7284c618-278a-42b7-9445-e2ed81eb1ce3"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "287f59c8-f63b-4f80-ba1a-c8abb9e39014": {
+      "type": "logo-list",
+      "blocks": {
+        "template--16076110397606__287f59c8-f63b-4f80-ba1a-c8abb9e39014-1681424665cae03d4c-0": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16076110397606__287f59c8-f63b-4f80-ba1a-c8abb9e39014-1681424665cae03d4c-1": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16076110397606__287f59c8-f63b-4f80-ba1a-c8abb9e39014-1681424665cae03d4c-2": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16076110397606__287f59c8-f63b-4f80-ba1a-c8abb9e39014-1681424665cae03d4c-3": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16076110397606__287f59c8-f63b-4f80-ba1a-c8abb9e39014-1681424665cae03d4c-0",
+        "template--16076110397606__287f59c8-f63b-4f80-ba1a-c8abb9e39014-1681424665cae03d4c-1",
+        "template--16076110397606__287f59c8-f63b-4f80-ba1a-c8abb9e39014-1681424665cae03d4c-2",
+        "template--16076110397606__287f59c8-f63b-4f80-ba1a-c8abb9e39014-1681424665cae03d4c-3"
+      ],
+      "settings": {
+        "title": "",
         "align_text": "center",
-        "blog": "news",
-        "post_limit": 6,
-        "blog_show_tags": false,
-        "blog_show_date": true,
-        "blog_show_comments": false,
-        "blog_show_author": false,
-        "view_all": false,
-        "blog_image_size": "wide",
+        "logo_opacity": 76,
         "divider": false,
+        "text_color": "",
+        "background_color": "",
         "padding": true
+      }
+    },
+    "5bdb24f0-b487-4a6d-b53f-055188accd89": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16076110397606__5bdb24f0-b487-4a6d-b53f-055188accd89-1681424553815a1172-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Videos<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16076110397606__5bdb24f0-b487-4a6d-b53f-055188accd89-1681424553815a1172-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
       }
     },
     "6dc319b0-f3ea-4519-a1df-3e2650f0bb36": {
@@ -79,7 +171,10 @@
   },
   "order": [
     "main",
-    "6798873b-ff20-4362-ab2e-77f590beaa9c",
+    "1e59ea04-931d-4918-bf33-5e2067c8ee6a",
+    "a6382f7a-b723-431d-a97c-fe037345d9bf",
+    "287f59c8-f63b-4f80-ba1a-c8abb9e39014",
+    "5bdb24f0-b487-4a6d-b53f-055188accd89",
     "6dc319b0-f3ea-4519-a1df-3e2650f0bb36"
   ]
 }
