@@ -23,31 +23,10 @@
             "color_tint_opacity": 8,
             "framed": false
           }
-        },
-        "advanced": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
-            "cta_link1": "",
-            "cta_text2": "Shop All",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "100",
-            "height": 500,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
         }
       },
       "block_order": [
-        "banner",
-        "advanced"
+        "banner"
       ],
       "settings": {
         "full_width": true,
