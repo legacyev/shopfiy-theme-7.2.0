@@ -9,33 +9,6 @@
         "parallax_direction": "top"
       }
     },
-    "promo-grid": {
-      "type": "promo-grid",
-      "blocks": {
-        "banner": {
-          "type": "banner",
-          "settings": {
-            "heading": "Banner promotion",
-            "text": "Add the details of your promotion in smaller text",
-            "link": "",
-            "label": "Shop now",
-            "color_tint": "#e95454",
-            "color_tint_opacity": 8,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "banner"
-      ],
-      "settings": {
-        "full_width": true,
-        "gutter_size": 0,
-        "space_above": false,
-        "space_below": false,
-        "lazyload_images": true
-      }
-    },
     "main-collection": {
       "type": "main-collection",
       "blocks": {
@@ -76,7 +49,6 @@
   },
   "order": [
     "collection-header",
-    "promo-grid",
     "main-collection"
   ]
 }
