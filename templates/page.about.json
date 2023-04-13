@@ -1,1 +1,115 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{}},"slideshow":{"type":"slideshow","blocks":{"slideshow-0":{"type":"image","settings":{"link_text":""}}},"block_order":["slideshow-0"],"settings":{}},"rich-text":{"type":"rich-text","blocks":{"heading":{"type":"heading","settings":{}},"text":{"type":"text","settings":{}}},"block_order":["heading","text"],"settings":{}},"map":{"type":"map","settings":{}},"text-columns":{"type":"text-columns","blocks":{"column1":{"type":"text_block","settings":{}},"column2":{"type":"text_block","settings":{}},"column3":{"type":"text_block","settings":{}}},"block_order":["column1","column2","column3"],"settings":{}},"featured-collection":{"type":"featured-collection","settings":{}},"form":{"type":"contact-form","settings":{}}},"order":["main","slideshow","rich-text","text-columns","map","featured-collection","form"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "The one stop solution for EV kits, components, education, and build-support.",
+            "title_size": 28,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "settings": {
+        "section_height": "450px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "lazyload_images": true
+      }
+    },
+    "62c2bf9e-9952-4343-a96a-809ef91242f9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16057369297062__62c2bf9e-9952-4343-a96a-809ef91242f9-1681424553815a1172-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h2>Honor the Past, Protect the Future<\/h2>"
+          }
+        },
+        "54f963a3-26ce-4964-9f63-409b88870a35": {
+          "type": "page",
+          "settings": {
+            "page_text": "about"
+          }
+        }
+      },
+      "block_order": [
+        "template--16057369297062__62c2bf9e-9952-4343-a96a-809ef91242f9-1681424553815a1172-1",
+        "54f963a3-26ce-4964-9f63-409b88870a35"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "c105f531-4ed5-417c-a5fc-76ad45291813": {
+      "type": "text-columns",
+      "blocks": {
+        "template--16057369297062__c105f531-4ed5-417c-a5fc-76ad45291813-16814243126ce78ec1-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<ul><li>Preserve the legacy of classic cars as the automotive industry evolves from gas powered to electric powered vehicles.<\/li><\/ul><p><\/p><ul><li>Preserve the legacy of auto repair and restoration through specialized EV education and training.<\/li><\/ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "c0112731-dfe6-4ff6-9f56-067841920228": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<ul><li>Preserve the legacy of classic cars as the automotive industry evolves from gas powered to electric powered vehicles.<\/li><\/ul><p><\/p><ul><li>Preserve the legacy of auto repair and restoration through specialized EV education and training.<\/li><\/ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16057369297062__c105f531-4ed5-417c-a5fc-76ad45291813-16814243126ce78ec1-1",
+        "c0112731-dfe6-4ff6-9f56-067841920228"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow",
+    "62c2bf9e-9952-4343-a96a-809ef91242f9",
+    "c105f531-4ed5-417c-a5fc-76ad45291813"
+  ]
+}
