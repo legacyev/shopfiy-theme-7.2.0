@@ -76,6 +76,7 @@
     "predictive_search_show_price": true,
     "predictive_image_size": "portrait",
     "show_breadcrumbs": true,
+    "show_breadcrumbs_collection_link": true,
     "disable_animations": true,
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
