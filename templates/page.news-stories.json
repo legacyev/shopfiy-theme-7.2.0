@@ -1,0 +1,85 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "6798873b-ff20-4362-ab2e-77f590beaa9c": {
+      "type": "blog-posts",
+      "settings": {
+        "color_background": "{{ shop.brand.colors.secondary[0].foreground }}",
+        "color_text": "{{ shop.brand.colors.primary[0].foreground }}",
+        "title": "Media Room",
+        "align_text": "center",
+        "blog": "news",
+        "post_limit": 6,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": false,
+        "blog_image_size": "wide",
+        "divider": false,
+        "padding": true
+      }
+    },
+    "6dc319b0-f3ea-4519-a1df-3e2650f0bb36": {
+      "type": "text-columns",
+      "blocks": {
+        "template--16073306538150__6dc319b0-f3ea-4519-a1df-3e2650f0bb36-16814243126ce78ec1-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Images & Logos",
+            "text": "<p>Download high resolution Legacy EV photos and official logos<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "template--16073306538150__6dc319b0-f3ea-4519-a1df-3e2650f0bb36-16814243126ce78ec1-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "About Legacy EV",
+            "text": "<p>Learn more about our mission and what motivates us to become one of the leaders in the EV Industry<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "template--16073306538150__6dc319b0-f3ea-4519-a1df-3e2650f0bb36-16814243126ce78ec1-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Founders",
+            "text": "<p>Meet the founders who started It all<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16073306538150__6dc319b0-f3ea-4519-a1df-3e2650f0bb36-16814243126ce78ec1-0",
+        "template--16073306538150__6dc319b0-f3ea-4519-a1df-3e2650f0bb36-16814243126ce78ec1-1",
+        "template--16073306538150__6dc319b0-f3ea-4519-a1df-3e2650f0bb36-16814243126ce78ec1-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "6798873b-ff20-4362-ab2e-77f590beaa9c",
+    "6dc319b0-f3ea-4519-a1df-3e2650f0bb36"
+  ]
+}
