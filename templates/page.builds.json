@@ -4,9 +4,118 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "a230dd32-5055-4225-addf-7fab637b58c3": {
+      "type": "text-and-image",
+      "settings": {
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "1971 Chevy c-10",
+        "title": "Red October",
+        "text": "<p>The 1971 Electric Chevy C-10 was built by Old Town Auto and uses the Legacy 3.1 Performance Series Kit. This build has 253 horsepower and 356 ft lbs of torque.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": false,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "7c56dbf5-93bb-41d4-8b34-f3c0c6b3dc18": {
+      "type": "hotspots",
+      "blocks": {
+        "template--16076118261926__7c56dbf5-93bb-41d4-8b34-f3c0c6b3dc18-1681427510d64f2dfd-0": {
+          "type": "product",
+          "settings": {
+            "featured_product": "",
+            "vertical": 25,
+            "horizontal": 25
+          }
+        },
+        "template--16076118261926__7c56dbf5-93bb-41d4-8b34-f3c0c6b3dc18-1681427510d64f2dfd-1": {
+          "type": "product",
+          "settings": {
+            "featured_product": "",
+            "vertical": 75,
+            "horizontal": 65
+          }
+        }
+      },
+      "block_order": [
+        "template--16076118261926__7c56dbf5-93bb-41d4-8b34-f3c0c6b3dc18-1681427510d64f2dfd-0",
+        "template--16076118261926__7c56dbf5-93bb-41d4-8b34-f3c0c6b3dc18-1681427510d64f2dfd-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "indent_image": true,
+        "image_position": "left",
+        "hotspot_style": "bag",
+        "hotspot_color": "#000000",
+        "lazyload_images": true
+      }
+    },
+    "3ca58575-a825-404b-816c-35b67de99be3": {
+      "type": "text-columns",
+      "blocks": {
+        "template--16076118261926__3ca58575-a825-404b-816c-35b67de99be3-16814276507eb83f93-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "b312f7cb-8a24-412f-82c6-9ade015a8482": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "b0e37ef3-9061-43be-8df7-49b38e4fa7b3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16076118261926__3ca58575-a825-404b-816c-35b67de99be3-16814276507eb83f93-0",
+        "b312f7cb-8a24-412f-82c6-9ade015a8482",
+        "b0e37ef3-9061-43be-8df7-49b38e4fa7b3"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "a230dd32-5055-4225-addf-7fab637b58c3",
+    "7c56dbf5-93bb-41d4-8b34-f3c0c6b3dc18",
+    "3ca58575-a825-404b-816c-35b67de99be3"
   ]
 }
