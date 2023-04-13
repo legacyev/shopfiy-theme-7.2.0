@@ -21,6 +21,68 @@
         "divider": false
       }
     },
+    "e42352c6-a18f-4c57-a750-54411bb51046": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16076118196390__e42352c6-a18f-4c57-a750-54411bb51046-1681426761877dee72-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "template--16076118196390__e42352c6-a18f-4c57-a750-54411bb51046-1681426761877dee72-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16076118196390__e42352c6-a18f-4c57-a750-54411bb51046-1681426761877dee72-0",
+        "template--16076118196390__e42352c6-a18f-4c57-a750-54411bb51046-1681426761877dee72-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "bf0e664d-2722-42f0-98c4-d4557784ea68": {
+      "type": "promo-grid",
+      "blocks": {
+        "template--16076118196390__bf0e664d-2722-42f0-98c4-d4557784ea68-168142655380b24f1a-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Education Plug",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "100",
+            "height": 420,
+            "text_size": 70,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16076118196390__bf0e664d-2722-42f0-98c4-d4557784ea68-168142655380b24f1a-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false,
+        "lazyload_images": true
+      }
+    },
     "main-collection": {
       "type": "main-collection",
       "blocks": {
@@ -58,46 +120,39 @@
         "enable_sort": true
       }
     },
-    "bf0e664d-2722-42f0-98c4-d4557784ea68": {
-      "type": "promo-grid",
+    "6a3169fb-5874-4fc2-99d4-0ebfcc863e11": {
+      "type": "faq",
       "blocks": {
-        "template--16076118196390__bf0e664d-2722-42f0-98c4-d4557784ea68-168142655380b24f1a-1": {
-          "type": "advanced",
+        "template--16076118196390__6a3169fb-5874-4fc2-99d4-0ebfcc863e11-168142682356cb644f-0": {
+          "type": "question",
           "settings": {
-            "subheading": "Limited time",
-            "heading": "Education Plug",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
-            "cta_link1": "",
-            "cta_text2": "",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "100",
-            "height": 140,
-            "text_size": 70,
-            "text_align": "vertical-center horizontal-center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        },
+        "template--16076118196390__6a3169fb-5874-4fc2-99d4-0ebfcc863e11-168142682356cb644f-1": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--16076118196390__bf0e664d-2722-42f0-98c4-d4557784ea68-168142655380b24f1a-1"
+        "template--16076118196390__6a3169fb-5874-4fc2-99d4-0ebfcc863e11-168142682356cb644f-0",
+        "template--16076118196390__6a3169fb-5874-4fc2-99d4-0ebfcc863e11-168142682356cb644f-1"
       ],
       "settings": {
-        "full_width": true,
-        "gutter_size": 0,
-        "space_above": false,
-        "space_below": false,
-        "lazyload_images": true
+        "title": "FAQs"
       }
     }
   },
   "order": [
     "collection-header",
     "a2a50d9c-4bed-4542-a2d0-20244b578769",
+    "e42352c6-a18f-4c57-a750-54411bb51046",
+    "bf0e664d-2722-42f0-98c4-d4557784ea68",
     "main-collection",
-    "bf0e664d-2722-42f0-98c4-d4557784ea68"
+    "6a3169fb-5874-4fc2-99d4-0ebfcc863e11"
   ]
 }
