@@ -61,6 +61,9 @@
 .page-width {
   max-width: 1220px;
 }
+.page-width--narrow {
+    max-width: 900px;
+}
 .hidden {
   display: none;
 }
