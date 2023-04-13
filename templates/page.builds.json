@@ -51,11 +51,11 @@
       ],
       "settings": {
         "title": "",
-        "heading_size": "h2",
+        "heading_size": "h3",
         "heading_position": "left",
         "indent_image": true,
         "image_position": "left",
-        "hotspot_style": "bag",
+        "hotspot_style": "plus",
         "hotspot_color": "#000000",
         "lazyload_images": true
       }
@@ -110,12 +110,43 @@
         "align_text": "center",
         "divider": false
       }
+    },
+    "56c70b21-aeca-420c-9126-d1018d3868a9": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16076118261926__56c70b21-aeca-420c-9126-d1018d3868a9-1681427766af3358ce-0": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "template--16076118261926__56c70b21-aeca-420c-9126-d1018d3868a9-1681427766af3358ce-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Custom content<\/h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.<\/p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16076118261926__56c70b21-aeca-420c-9126-d1018d3868a9-1681427766af3358ce-0",
+        "template--16076118261926__56c70b21-aeca-420c-9126-d1018d3868a9-1681427766af3358ce-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
     "main",
     "a230dd32-5055-4225-addf-7fab637b58c3",
     "7c56dbf5-93bb-41d4-8b34-f3c0c6b3dc18",
-    "3ca58575-a825-404b-816c-35b67de99be3"
+    "3ca58575-a825-404b-816c-35b67de99be3",
+    "56c70b21-aeca-420c-9126-d1018d3868a9"
   ]
 }
