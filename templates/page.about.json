@@ -49,17 +49,10 @@
             "enlarge_text": true,
             "text": "<h2>Honor the Past, Protect the Future<\/h2>"
           }
-        },
-        "54f963a3-26ce-4964-9f63-409b88870a35": {
-          "type": "page",
-          "settings": {
-            "page_text": "about"
-          }
         }
       },
       "block_order": [
-        "template--16057369297062__62c2bf9e-9952-4343-a96a-809ef91242f9-1681424553815a1172-1",
-        "54f963a3-26ce-4964-9f63-409b88870a35"
+        "template--16057369297062__62c2bf9e-9952-4343-a96a-809ef91242f9-1681424553815a1172-1"
       ],
       "settings": {
         "align_text": "left",
