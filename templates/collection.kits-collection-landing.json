@@ -61,12 +61,6 @@
     "e42352c6-a18f-4c57-a750-54411bb51046": {
       "type": "rich-text",
       "blocks": {
-        "template--16076118196390__e42352c6-a18f-4c57-a750-54411bb51046-1681426761877dee72-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Rich text"
-          }
-        },
         "template--16076118196390__e42352c6-a18f-4c57-a750-54411bb51046-1681426761877dee72-1": {
           "type": "text",
           "settings": {
@@ -76,7 +70,6 @@
         }
       },
       "block_order": [
-        "template--16076118196390__e42352c6-a18f-4c57-a750-54411bb51046-1681426761877dee72-0",
         "template--16076118196390__e42352c6-a18f-4c57-a750-54411bb51046-1681426761877dee72-1"
       ],
       "settings": {
