@@ -60,26 +60,9 @@
             "page": ""
           }
         },
-        "contact": {
-          "type": "contact",
-          "settings": {
-            "title": "Ask a question",
-            "phone": false
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
-          }
-        },
-        "68cb97a0-2f3f-4762-97c7-728027ca3a9e": {
-          "type": "complementary_products",
-          "settings": {
-            "product_complementary_heading": "Pairs well with",
-            "complementary_count": 4,
-            "per_slide": 2,
-            "control_type": "dots",
-            "image_style": "default"
           }
         }
       },
@@ -92,9 +75,7 @@
         "buy_buttons",
         "description",
         "tab",
-        "contact",
-        "share",
-        "68cb97a0-2f3f-4762-97c7-728027ca3a9e"
+        "share"
       ],
       "settings": {
         "sku_enable": false,
@@ -111,25 +92,8 @@
     },
     "sub": {
       "type": "product-full-width",
-      "disabled": true,
       "settings": {
         "max_width": true
-      }
-    },
-    "background-image-text": {
-      "type": "background-image-text",
-      "settings": {
-        "subtitle": "Impressive",
-        "title": "About your brand",
-        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "layout": "left",
-        "height": 550,
-        "framed": false,
-        "parallax": false,
-        "parallax_direction": "top",
-        "lazyload_images": true
       }
     },
     "product-recommendations": {
@@ -142,8 +106,9 @@
     },
     "recently-viewed": {
       "type": "recently-viewed",
+      "disabled": true,
       "settings": {
-        "recent_count": 5
+        "recent_count": 6
       }
     },
     "collection-return": {
@@ -155,7 +120,6 @@
   "order": [
     "main",
     "sub",
-    "background-image-text",
     "product-recommendations",
     "recently-viewed",
     "collection-return"
