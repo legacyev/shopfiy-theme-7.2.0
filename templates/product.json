@@ -18,12 +18,6 @@
             "stars_text_empty": ""
           }
         },
-        "bf5e0d1a-0c0e-4d73-90ff-5e9eb878517a": {
-          "type": "shopify:\/\/apps\/junip-product-reviews-ugc\/blocks\/junip-product-summary\/dc14f5a8-ed15-41b1-ad08-cfba23f9789b",
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
         "separator": {
           "type": "separator",
           "settings": {
@@ -92,7 +86,6 @@
       "block_order": [
         "price",
         "a77a817f-e3cc-4843-b809-661dc9896260",
-        "bf5e0d1a-0c0e-4d73-90ff-5e9eb878517a",
         "separator",
         "variant_picker",
         "inventory_status",
@@ -157,53 +150,6 @@
       "type": "collection-return",
       "settings": {
       }
-    },
-    "1680026671d9ffc79e": {
-      "type": "apps",
-      "blocks": {
-        "8d0d4402-0724-4009-834e-37a785a8ee6e": {
-          "type": "shopify:\/\/apps\/junip-product-reviews-ugc\/blocks\/junip-reviews\/dc14f5a8-ed15-41b1-ad08-cfba23f9789b",
-          "settings": {
-            "layout": "list",
-            "reviewsType": "all",
-            "showSummary": true,
-            "reviewsCount": 10,
-            "containerClass": ""
-          }
-        },
-        "c03c4f64-5fdd-4b2b-b15a-afc3cd897e51": {
-          "type": "shopify:\/\/apps\/junip-product-reviews-ugc\/blocks\/junip-product-review\/dc14f5a8-ed15-41b1-ad08-cfba23f9789b",
-          "settings": {
-            "product": "{{product}}"
-          }
-        }
-      },
-      "block_order": [
-        "8d0d4402-0724-4009-834e-37a785a8ee6e",
-        "c03c4f64-5fdd-4b2b-b15a-afc3cd897e51"
-      ],
-      "settings": {
-        "full_width": true,
-        "space_around": true
-      }
-    },
-    "1681507012bac55183": {
-      "type": "apps",
-      "blocks": {
-        "ad36869c-6d48-4392-84a7-dcf265d9a23e": {
-          "type": "shopify:\/\/apps\/junip-product-reviews-ugc\/blocks\/junip-product-summary\/dc14f5a8-ed15-41b1-ad08-cfba23f9789b",
-          "settings": {
-            "product": "{{product}}"
-          }
-        }
-      },
-      "block_order": [
-        "ad36869c-6d48-4392-84a7-dcf265d9a23e"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
     }
   },
   "order": [
@@ -212,8 +158,6 @@
     "background-image-text",
     "product-recommendations",
     "recently-viewed",
-    "collection-return",
-    "1680026671d9ffc79e",
-    "1681507012bac55183"
+    "collection-return"
   ]
 }
