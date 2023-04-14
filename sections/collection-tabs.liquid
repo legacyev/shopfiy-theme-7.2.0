@@ -1,9 +1,9 @@
 {%- assign per_row = section.settings.per_row -%}
 {%- assign product_limit = per_row | times: section.settings.rows -%}
-{%- assign collection = collections[section.settings.home_featured_products] -%}
 
 {% assign collection_one = settings.collection_one %}
 {% assign collection_two = settings.collection_two %}
+{% assign collection_two = settings.collection_three %}
 
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
@@ -26,6 +26,7 @@
   <div class="featured-collection__tabs grid__item text-center">
     <a class="active" href="#collection-one">{{ section.settings.collection_label_one }}</a>
     <a href="#collection-two">{{ section.settings.collection_label_two }}</a>
+    <a href="#collection-two">{{ section.settings.collection_label_three }}</a>
   </div>
   <div class="page-width{% if section.settings.mobile_scrollable %} page-width--flush-small{% endif %}">
     <div{% if section.settings.mobile_scrollable %} class="grid-overflow-wrapper"{% endif %}>
@@ -94,6 +95,18 @@
               -%}
             {%- endfor -%}
           </div>
+          
+          <div id="collection-three" class="collection hidden">
+            {%- for product in collections[section.settings.collection_three].products limit: product_limit -%}
+              {%- render 'product-grid-item',
+                product: product,
+                collection: collection,
+                per_row: per_row,
+                quick_shop_enable: settings.quick_shop_enable,
+                fallback: fallback,
+              -%}
+            {%- endfor -%}
+          </div>
 
           {%- if section.settings.view_all -%}
 
@@ -150,6 +163,17 @@
       "id": "collection_label_two",
       "label": "Text for Collection Two",
       "default": "Collection Label Two"
+    },
+    {
+      "type": "collection",
+      "id": "collection_three",
+      "label": "Collection Three"
+    },
+    {
+      "type": "text",
+      "id": "collection_label_three",
+      "label": "Text for Collection Three",
+      "default": "Collection Label Three"
     },
     {
       "type": "range",
