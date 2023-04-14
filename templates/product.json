@@ -18,6 +18,12 @@
             "stars_text_empty": ""
           }
         },
+        "bf5e0d1a-0c0e-4d73-90ff-5e9eb878517a": {
+          "type": "shopify:\/\/apps\/junip-product-reviews-ugc\/blocks\/junip-product-summary\/dc14f5a8-ed15-41b1-ad08-cfba23f9789b",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "separator": {
           "type": "separator",
           "settings": {
@@ -86,6 +92,7 @@
       "block_order": [
         "price",
         "a77a817f-e3cc-4843-b809-661dc9896260",
+        "bf5e0d1a-0c0e-4d73-90ff-5e9eb878517a",
         "separator",
         "variant_picker",
         "inventory_status",
