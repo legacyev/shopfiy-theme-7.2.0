@@ -6,148 +6,213 @@
       "settings": {
       }
     },
-    "a230dd32-5055-4225-addf-7fab637b58c3": {
-      "type": "text-and-image",
+    "9d558758-c225-4240-a778-78795173f5be": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16078410154150__9d558758-c225-4240-a778-78795173f5be-1681794989c11864db-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Builds Powered by Legacy EV "
+          }
+        },
+        "template--16078410154150__9d558758-c225-4240-a778-78795173f5be-1681794989c11864db-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>As the one stop solution for EV kits, components, and EV education Legacy EV supports hundreds of shops around the world in electrifying the most iconic cars throughout history.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16078410154150__9d558758-c225-4240-a778-78795173f5be-1681794989c11864db-0",
+        "template--16078410154150__9d558758-c225-4240-a778-78795173f5be-1681794989c11864db-1"
+      ],
       "settings": {
-        "image_mask": "none",
-        "image2_mask": "none",
-        "subtitle": "1971 Chevy c-10",
-        "title": "Red October",
-        "text": "<p>The 1971 Electric Chevy C-10 was built by Old Town Auto and uses the Legacy 3.1 Performance Series Kit. This build has 253 horsepower and 356 ft lbs of torque.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
         "align_text": "left",
-        "image_width": "50",
-        "layout": "right",
-        "divider": false,
-        "top_padding": false,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
-    "7c56dbf5-93bb-41d4-8b34-f3c0c6b3dc18": {
-      "type": "hotspots",
-      "blocks": {
-        "template--16076118261926__7c56dbf5-93bb-41d4-8b34-f3c0c6b3dc18-1681427510d64f2dfd-0": {
-          "type": "product",
-          "settings": {
-            "featured_product": "",
-            "vertical": 25,
-            "horizontal": 25
-          }
-        },
-        "template--16076118261926__7c56dbf5-93bb-41d4-8b34-f3c0c6b3dc18-1681427510d64f2dfd-1": {
-          "type": "product",
-          "settings": {
-            "featured_product": "",
-            "vertical": 75,
-            "horizontal": 65
-          }
-        }
-      },
-      "block_order": [
-        "template--16076118261926__7c56dbf5-93bb-41d4-8b34-f3c0c6b3dc18-1681427510d64f2dfd-0",
-        "template--16076118261926__7c56dbf5-93bb-41d4-8b34-f3c0c6b3dc18-1681427510d64f2dfd-1"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h3",
-        "heading_position": "left",
-        "indent_image": true,
-        "image_position": "left",
-        "hotspot_style": "plus",
-        "hotspot_color": "#000000",
-        "lazyload_images": true
-      }
-    },
-    "3ca58575-a825-404b-816c-35b67de99be3": {
-      "type": "text-columns",
-      "blocks": {
-        "template--16076118261926__3ca58575-a825-404b-816c-35b67de99be3-16814276507eb83f93-0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "b312f7cb-8a24-412f-82c6-9ade015a8482": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "b0e37ef3-9061-43be-8df7-49b38e4fa7b3": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16076118261926__3ca58575-a825-404b-816c-35b67de99be3-16814276507eb83f93-0",
-        "b312f7cb-8a24-412f-82c6-9ade015a8482",
-        "b0e37ef3-9061-43be-8df7-49b38e4fa7b3"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
+        "narrow_column": true,
         "divider": false
       }
     },
-    "56c70b21-aeca-420c-9126-d1018d3868a9": {
-      "type": "advanced-content",
+    "2990fcab-5eec-46d2-a9db-0f980e5d6c5f": {
+      "type": "promo-grid",
       "blocks": {
-        "template--16076118261926__56c70b21-aeca-420c-9126-d1018d3868a9-1681427766af3358ce-0": {
-          "type": "image",
+        "template--16078410154150__2990fcab-5eec-46d2-a9db-0f980e5d6c5f-1681794777b23f8df0-0": {
+          "type": "advanced",
           "settings": {
-            "link": "",
-            "width": "50%",
-            "alignment": "center"
-          }
-        },
-        "template--16076118261926__56c70b21-aeca-420c-9126-d1018d3868a9-1681427766af3358ce-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "<h2>Custom content<\/h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.<\/p>",
-            "width": "50%",
-            "alignment": "center"
+            "subheading": "",
+            "heading": "",
+            "textarea": "To watch free educational videos from Legacy EV and partners, check out the Legacy EV youtube channel.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "100",
+            "height": 260,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
           }
         }
       },
       "block_order": [
-        "template--16076118261926__56c70b21-aeca-420c-9126-d1018d3868a9-1681427766af3358ce-0",
-        "template--16076118261926__56c70b21-aeca-420c-9126-d1018d3868a9-1681427766af3358ce-1"
+        "template--16078410154150__2990fcab-5eec-46d2-a9db-0f980e5d6c5f-1681794777b23f8df0-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false,
+        "lazyload_images": true
+      }
+    },
+    "d796bd1e-6126-463d-a209-29d2b0cc7d29": {
+      "type": "promo-grid",
+      "blocks": {
+        "template--16078410154150__d796bd1e-6126-463d-a209-29d2b0cc7d29-1681794777b23f8df0-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_size": 60,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "23a695e4-14b4-46b4-8969-7987b527e79a": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_size": 60,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "12573943-6c29-4a3a-af88-d70d1e524226": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_size": 60,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "edd795a8-ee70-452d-9df4-904942b1cd73": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_size": 60,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "b1a0b4a2-b3f2-4b1f-ba9f-d0ef29f86f97": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_size": 60,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "1572b537-a12b-4ca8-bac5-5fd2415f08e1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_size": 60,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16078410154150__d796bd1e-6126-463d-a209-29d2b0cc7d29-1681794777b23f8df0-0",
+        "23a695e4-14b4-46b4-8969-7987b527e79a",
+        "12573943-6c29-4a3a-af88-d70d1e524226",
+        "edd795a8-ee70-452d-9df4-904942b1cd73",
+        "b1a0b4a2-b3f2-4b1f-ba9f-d0ef29f86f97",
+        "1572b537-a12b-4ca8-bac5-5fd2415f08e1"
       ],
       "settings": {
         "full_width": false,
-        "space_around": true,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": true,
         "lazyload_images": true
       }
     }
   },
   "order": [
     "main",
-    "a230dd32-5055-4225-addf-7fab637b58c3",
-    "7c56dbf5-93bb-41d4-8b34-f3c0c6b3dc18",
-    "3ca58575-a825-404b-816c-35b67de99be3",
-    "56c70b21-aeca-420c-9126-d1018d3868a9"
+    "9d558758-c225-4240-a778-78795173f5be",
+    "2990fcab-5eec-46d2-a9db-0f980e5d6c5f",
+    "d796bd1e-6126-463d-a209-29d2b0cc7d29"
   ]
 }
