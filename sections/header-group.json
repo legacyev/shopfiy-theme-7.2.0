@@ -2,25 +2,6 @@
   "type": "header",
   "name": "t:sections.header-group.name",
   "sections": {
-    "announcement": {
-      "type": "announcement",
-      "blocks": {
-        "announcement-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "",
-            "link_text": "📣 Our Next In-Person Training is Filling Up →",
-            "link": "shopify:\/\/products\/legacy-ev-education-roadshow"
-          }
-        }
-      },
-      "block_order": [
-        "announcement-0"
-      ],
-      "settings": {
-        "announcement_compact": true
-      }
-    },
     "header": {
       "type": "header",
       "blocks": {
@@ -63,10 +44,29 @@
         "show_currency_selector": true,
         "show_currency_flags": true
       }
+    },
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "announcement-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "",
+            "link_text": "📣 Our Next In-Person Training is Filling Up →",
+            "link": "shopify:\/\/products\/legacy-ev-education-roadshow"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-0"
+      ],
+      "settings": {
+        "announcement_compact": true
+      }
     }
   },
   "order": [
-    "announcement",
-    "header"
+    "header",
+    "announcement"
   ]
 }
