@@ -66,7 +66,7 @@
             "title": "EV <br>Education",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/edu"
+            "button_link": "shopify:\/\/pages\/education"
           }
         },
         "template--16057369559206__802f7f66-13cd-4ea0-8c70-242e9dd19588-168033413370ff6233-1": {
@@ -198,12 +198,12 @@
       ],
       "settings": {
         "title": "",
-        "collection_one": "best-sellers",
         "collection_label_one": "Best Sellers",
-        "collection_two": "components",
+        "collection_one": "best-sellers",
         "collection_label_two": "Shop Parts",
-        "collection_three": "legacy-kits",
+        "collection_two": "components",
         "collection_label_three": "Shop Kits",
+        "collection_three": "legacy-kits",
         "per_row": 4,
         "rows": 3,
         "mobile_scrollable": false,
